@@ -1,0 +1,193 @@
+# TRADING BOT FUNCTIONALITY EXPLANATION
+
+This document explains how the current trading bot works, focusing on token selection, buying, and selling mechanisms.
+
+## 1. TOKEN SELECTION PROCESS
+
+### 1.1 Initial Token Detection
+- The bot detects new tokens through the `detectionPf` function in `detection-improved.ts`
+- When a token is detected (type: 'Mint'), it's evaluated for potential trading
+- Instead of immediately buying, tokens are added to a candidate pool for further evaluation
+- Each candidate includes token address, creator wallet, initial price, detection time, block number, and initial buy amount
+
+### 1.2 Whitelist/Blacklist Filtering
+- The bot maintains whitelists and blacklists of wallet addresses in `whitelist.ts` and `blacklist.ts`
+- Tokens created by blacklisted wallets are automatically filtered out
+- The whitelist system works as follows:
+  - `WhitelistAdd` function adds wallets based on specific criteria
+  - Wallets need to meet minimum requirements (e.g., `minLUTCount` from config)
+  - The bot checks cumulative SOL balance across associated wallets
+  - Wallets are only whitelisted if their cumulative balance exceeds `cumulativeSol` threshold (9 SOL)
+  - Whitelisted wallets are automatically removed after 15 minutes
+  - The config also contains a static whitelist of trusted wallet addresses
+
+### 1.3 Token Candidate Evaluation
+- The `TokenSelector` class in `token-selector.ts` manages the candidate pool
+- Key functions include:
+  - `addCandidate`: Adds tokens to the pool (limited to MAX_CANDIDATES = 50)
+  - `cleanupExpiredCandidates`: Removes candidates older than 5 minutes
+  - `calculateCandidateScore`: Assigns a score to each candidate based on multiple factors
+
+### 1.4 Scoring System
+- Each token candidate receives a score based on:
+  - Profitability: Expected profit after fees (higher profit = higher score)
+  - Creator's performance history: Success rate and average profit from previous tokens
+  - Recency: Newer tokens receive higher scores (score decreases by 2 points per minute of age)
+  - Initial buy amount: Preference for amounts in the "sweet spot" (0.5 to 2.0 SOL)
+- The base score starts at 50 and is adjusted based on these factors
+
+### 1.5 Profitability Calculation
+- The `isProfitableTrade` method determines if a trade would be profitable:
+  - Fetches current token price
+  - Calculates expected profit based on take profit target (config.tp, default 5%)
+  - Estimates fees for buy and sell transactions (including priority fees, Jito tips, slippage)
+  - Only considers trades profitable if profit after fees is positive
+  - Uses `minProfitThreshold` from config (default 1%)
+
+### 1.6 Final Selection
+- The `selectBestCandidate` method:
+  - Evaluates all candidates in the pool
+  - Filters out unprofitable candidates
+  - Sorts candidates by score (highest first)
+  - Returns the highest scoring profitable candidate
+  - Removes the selected candidate from the pool
+
+## 2. BUYING PROCESS
+
+### 2.1 Transaction Queue Management
+- The `ImprovedTransactionQueue` class in `transaction-queue-improved.ts` manages the trading process
+- The queue is processed periodically (every 15 seconds) to select and trade the best token
+- Only one trade is executed at a time (controlled by `tradeInProgress` flag)
+- If a trade gets stuck, it's automatically cleared after 2 minutes of inactivity
+
+### 2.2 Buy Execution
+- When a token is selected for trading, the `buy` function from `trade-improvements.ts` is called
+- The buy function:
+  - Prepares the transaction with appropriate parameters (amount, slippage, priority fee)
+  - Uses Jito bundles for MEV protection if configured
+  - Executes the transaction with retry logic in case of failure
+  - Updates performance tracking data for the token and creator
+
+### 2.3 Buy Parameters
+- Key parameters that affect buying:
+  - `amountTrade`: Amount of SOL to use for each trade (default 0.15 SOL)
+  - `slippage`: Maximum allowed slippage percentage (default 1%)
+  - `prioityFee`: Priority fee for transaction processing (default 0.5)
+  - `jitoBuyTip`: Tip amount for Jito bundles (default 0.0002 SOL)
+  - Random delay between detection and buying to avoid front-running
+
+## 3. SELLING PROCESS
+
+### 3.1 Sell Triggers
+- The bot monitors purchased tokens for sell conditions:
+  - Take profit (TP): Sell when price reaches the target profit percentage (default 5%)
+  - Stop loss (SL): Sell when price drops below the stop loss threshold (default 3%)
+  - Timeout: Sell if the token hasn't reached TP within a certain time period
+    - `profitTimeout`: Maximum time to wait for profit (default 20 minutes)
+    - `activityTimeout`: Maximum time to wait for activity (default 5 minutes)
+
+### 3.2 Sell Execution
+- When a sell condition is met, the sell function is triggered
+- The sell process:
+  - Calculates the optimal selling price based on current market conditions
+  - Prepares the transaction with appropriate parameters
+  - Uses Jito bundles for MEV protection if configured
+  - Executes the transaction with retry logic
+  - Updates performance tracking data with the trade result
+
+### 3.3 Sell Parameters
+- Key parameters that affect selling:
+  - `tp`: Take profit percentage (default 5%)
+  - `sl`: Stop loss percentage (default 3%)
+  - `jitoSellTip`: Tip amount for Jito bundles on sell transactions (default 0.0001 SOL)
+  - `slippage`: Maximum allowed slippage percentage (default 1%)
+
+## 4. PERFORMANCE TRACKING
+
+### 4.1 Trade Performance
+- The `PerformanceTracker` class in `performance-tracker.ts` tracks trade performance
+- For each trade, it records:
+  - Token address and creator wallet
+  - Entry and exit prices
+  - Profit/loss amount and percentage
+  - Trade duration
+  - Success/failure status
+
+### 4.2 Wallet Performance
+- The bot tracks performance metrics for token creators:
+  - Total number of trades
+  - Success rate (percentage of profitable trades)
+  - Average profit/loss
+  - Total profit/loss
+- This data influences future token selection (creators with better performance get higher scores)
+
+### 4.3 System Performance
+- The bot also monitors system performance metrics:
+  - RPC endpoint reliability and response times
+  - Transaction success rates
+  - Average time from detection to execution
+  - Memory and CPU usage
+
+## 5. CONFIGURATION SYSTEM
+
+### 5.1 Dynamic Configuration
+- The bot loads configuration from `config.json`
+- Configuration is reloaded every 5 seconds to allow for runtime changes
+- When configuration changes, the `configEvents` emitter notifies relevant components
+
+### 5.2 Key Configuration Parameters
+- Trading parameters:
+  - `amountTrade`: Amount of SOL to use for each trade (default 0.15 SOL)
+  - `tp`: Take profit percentage (default 5%)
+  - `sl`: Stop loss percentage (default 3%)
+  - `slippage`: Maximum allowed slippage percentage (default 1%)
+- Token selection parameters:
+  - `cumulativeSol`: Minimum cumulative SOL balance for whitelisting (default 9 SOL)
+  - `minLUTCount`: Minimum number of wallets required for whitelisting (default 2)
+  - `initialBuyWhiteList`: List of allowed initial buy amounts
+  - `initialBuyBlackList`: List of disallowed initial buy amounts
+- System parameters:
+  - `enabled`: Master switch to enable/disable trading
+  - `devnetMode`: Run in devnet mode for testing
+  - `maxConcurrentTrades`: Maximum number of concurrent trades (default 1)
+  - `rateLimitDelay`: Delay between API requests (default 60000ms)
+
+## 6. RATE LIMITING AND ERROR HANDLING
+
+### 6.1 Rate Limiting
+- The `AdvancedRateLimiter` class in `rate-limiter.ts` manages API request rates
+- It implements adaptive rate limiting based on:
+  - Success/failure rates of recent requests
+  - Time of day (to adapt to network congestion patterns)
+  - Endpoint-specific limits
+
+### 6.2 Error Handling
+- The bot implements comprehensive error handling:
+  - Retry logic for transient errors
+  - Fallback RPC endpoints if the primary one fails
+  - Automatic recovery from stuck transactions
+  - Logging of errors for later analysis
+
+## 7. SYSTEM ARCHITECTURE
+
+### 7.1 Component Structure
+- The bot is structured as a set of specialized components:
+  - Detection: Monitors the blockchain for new tokens
+  - Token Selection: Evaluates and scores token candidates
+  - Transaction Queue: Manages the trading process
+  - Trade Execution: Handles buying and selling
+  - Performance Tracking: Records and analyzes trade performance
+  - Configuration: Manages system settings
+
+### 7.2 Data Flow
+1. Detection component identifies new tokens
+2. Token candidates are added to the selection pool
+3. Token selector evaluates and scores candidates
+4. Transaction queue selects the best candidate for trading
+5. Buy function executes the purchase
+6. Monitoring system watches for sell conditions
+7. Sell function executes the sale when conditions are met
+8. Performance tracker records the trade result
+9. Process repeats with the next best candidate
+
+This architecture allows the bot to continuously monitor the market, select the most promising tokens, execute trades, and learn from the results to improve future performance.

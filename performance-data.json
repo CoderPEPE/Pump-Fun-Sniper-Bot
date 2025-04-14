@@ -1,0 +1,3554 @@
+{
+  "45gKtLTwWQNxM2yncLRDS9Q77qJgPWZdaogPq77qJiQE": {
+    "wallet": "45gKtLTwWQNxM2yncLRDS9Q77qJgPWZdaogPq77qJiQE",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.026038358999999983,
+    "averageProfit": -0.026038358999999983,
+    "lastTradeTimestamp": 1741994314613,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "3WediZDtyTYUMqe6zCKiXJRRAdXuntEMxwxSQsnPpump",
+        "creator": "45gKtLTwWQNxM2yncLRDS9Q77qJgPWZdaogPq77qJiQE",
+        "buyPrice": 0.00002889872631251941,
+        "sellPrice": 0.000028323177343525793,
+        "profit": -0.026038358999999983,
+        "profitPercentage": -450510.4951410909,
+        "timestamp": 1741994314613,
+        "executionTime": 39.538,
+        "success": false
+      }
+    ]
+  },
+  "A7YpRkhzy99zHyzKRehtrAh25F1raUmd4fhh9XRWfMK1": {
+    "wallet": "A7YpRkhzy99zHyzKRehtrAh25F1raUmd4fhh9XRWfMK1",
+    "totalTrades": 1,
+    "successfulTrades": 1,
+    "failedTrades": 0,
+    "totalProfit": 0.044713257000000006,
+    "averageProfit": 0.044713257000000006,
+    "lastTradeTimestamp": 1741994377504,
+    "successRate": 1,
+    "trades": [
+      {
+        "token": "974GP8RQcrm632aEY1Z9Jwu1QTBR2ZtqjuZ3nVUKpump",
+        "creator": "A7YpRkhzy99zHyzKRehtrAh25F1raUmd4fhh9XRWfMK1",
+        "buyPrice": 0.00003222139115993837,
+        "sellPrice": 0.00004451061997232961,
+        "profit": 0.044713257000000006,
+        "profitPercentage": 693844.2970704671,
+        "timestamp": 1741994377504,
+        "executionTime": 8.557,
+        "success": true
+      }
+    ]
+  },
+  "rS4creaKCpRovGADbVK1TgcZVg3BAoH3Dva7oBepjCD": {
+    "wallet": "rS4creaKCpRovGADbVK1TgcZVg3BAoH3Dva7oBepjCD",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.023506414999999975,
+    "averageProfit": -0.023506414999999975,
+    "lastTradeTimestamp": 1741994349135,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "9Srcy8dRPaKzY2EVfFu6yFmHMFoXJoRYfHYsnxLVpump",
+        "creator": "rS4creaKCpRovGADbVK1TgcZVg3BAoH3Dva7oBepjCD",
+        "buyPrice": 0.000033157157502329885,
+        "sellPrice": 0.00003331814141170607,
+        "profit": -0.023506414999999975,
+        "profitPercentage": -354469.6947913618,
+        "timestamp": 1741994349135,
+        "executionTime": 42.296,
+        "success": false
+      }
+    ]
+  },
+  "7pEXhVH9pCEBeLMhbnybcowXgH54rRbb2P9TkANvRZhU": {
+    "wallet": "7pEXhVH9pCEBeLMhbnybcowXgH54rRbb2P9TkANvRZhU",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.078383815,
+    "averageProfit": -0.078383815,
+    "lastTradeTimestamp": 1741994474706,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "ECN9hnyZoduFCkPtZnM4VBeSgM1svRowNJq46fp2pump",
+        "creator": "7pEXhVH9pCEBeLMhbnybcowXgH54rRbb2P9TkANvRZhU",
+        "buyPrice": 0.000033830382106244154,
+        "sellPrice": 0.000028269646578203847,
+        "profit": -0.078383815,
+        "profitPercentage": -1158482.5550275487,
+        "timestamp": 1741994474706,
+        "executionTime": 40.293,
+        "success": false
+      }
+    ]
+  },
+  "7AZBJFbLghiFBQ7mZFq6ANPMtUcar3Azc7icCf3eYB1A": {
+    "wallet": "7AZBJFbLghiFBQ7mZFq6ANPMtUcar3Azc7icCf3eYB1A",
+    "totalTrades": 4,
+    "successfulTrades": 0,
+    "failedTrades": 4,
+    "totalProfit": -0.10289441200000002,
+    "averageProfit": -0.025723603000000005,
+    "lastTradeTimestamp": 1742252329470,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "AD3mTcp76yyf4ymiPh9BM7QBjJecya9iV5KmCubkpump",
+        "creator": "7AZBJFbLghiFBQ7mZFq6ANPMtUcar3Azc7icCf3eYB1A",
+        "buyPrice": 0.000034216604069356885,
+        "sellPrice": 0.00002845364806787948,
+        "profit": -0.056111994,
+        "profitPercentage": -819952.7031709702,
+        "timestamp": 1741995988351,
+        "executionTime": 38.236,
+        "success": false
+      },
+      {
+        "token": "HQ3qwphZWAQ5mECmxNTD8dA9MCRGFn21XV3nuaDLpump",
+        "creator": "7AZBJFbLghiFBQ7mZFq6ANPMtUcar3Azc7icCf3eYB1A",
+        "buyPrice": 0.00003228055865068484,
+        "sellPrice": 0.00002828469142102611,
+        "profit": -0.04678241800000002,
+        "profitPercentage": -724622.1867818809,
+        "timestamp": 1742251855274,
+        "executionTime": 36.562,
+        "success": false
+      },
+      {
+        "token": "64YGX18F5EDzsURZBfbw5yWxpKPi2aWSSMFc1n84pump",
+        "creator": "7AZBJFbLghiFBQ7mZFq6ANPMtUcar3Azc7icCf3eYB1A",
+        "buyPrice": 0.00003380924802490365,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252193194,
+        "executionTime": 65.296,
+        "success": false
+      },
+      {
+        "token": "BAk4K2qMzv22njm4YxQEJ8U9dBXqqGiRnoeTvKrkpump",
+        "creator": "7AZBJFbLghiFBQ7mZFq6ANPMtUcar3Azc7icCf3eYB1A",
+        "buyPrice": 0.00002795899347716682,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252329470,
+        "executionTime": 64.59,
+        "success": false
+      }
+    ]
+  },
+  "5orB7HYHHmuzBJKCKry3hjmFjJnhvuvnTiDUwGoAipKR": {
+    "wallet": "5orB7HYHHmuzBJKCKry3hjmFjJnhvuvnTiDUwGoAipKR",
+    "totalTrades": 2,
+    "successfulTrades": 0,
+    "failedTrades": 2,
+    "totalProfit": -0.04328974099999999,
+    "averageProfit": -0.021644870499999996,
+    "lastTradeTimestamp": 1741996465383,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "C8HsGGGJkKUcUyTRdVHmzNJVgfPQhYRmZoYGmQMNpump",
+        "creator": "5orB7HYHHmuzBJKCKry3hjmFjJnhvuvnTiDUwGoAipKR",
+        "buyPrice": 0.00002974938895608114,
+        "sellPrice": 0.000030711610920199145,
+        "profit": -0.016253336000000007,
+        "profitPercentage": -273170.9216615292,
+        "timestamp": 1741996118255,
+        "executionTime": 36.645,
+        "success": false
+      },
+      {
+        "token": "DSwZqnu1KFHmDRVrw1qktAXrgZLiwmhymUb3Jc57pump",
+        "creator": "5orB7HYHHmuzBJKCKry3hjmFjJnhvuvnTiDUwGoAipKR",
+        "buyPrice": 0.00002889872631346691,
+        "sellPrice": 0.000029281486733142374,
+        "profit": -0.027036404999999986,
+        "profitPercentage": -467778.4879986376,
+        "timestamp": 1741996465383,
+        "executionTime": 40.131,
+        "success": false
+      }
+    ]
+  },
+  "CYc745Cyu7Y32dB2AExJRsLAMD9A7PmvzRiKKPaQVzQo": {
+    "wallet": "CYc745Cyu7Y32dB2AExJRsLAMD9A7PmvzRiKKPaQVzQo",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996158846,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "3SdtcwZv9QSqdm9EXYTcR59PrVwe1xxWc2Ncb5K7pump",
+        "creator": "CYc745Cyu7Y32dB2AExJRsLAMD9A7PmvzRiKKPaQVzQo",
+        "buyPrice": 0.000031910608886738085,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996158846,
+        "executionTime": 64.876,
+        "success": false
+      }
+    ]
+  },
+  "3gRafP6A5aKr5FERzEW1YKTCPTa4cB29brGchE5c2Zmk": {
+    "wallet": "3gRafP6A5aKr5FERzEW1YKTCPTa4cB29brGchE5c2Zmk",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996200363,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "6csyAwETtbVLkmNxY9Nxm9EuBZwsqmdjf62SPReMpump",
+        "creator": "3gRafP6A5aKr5FERzEW1YKTCPTa4cB29brGchE5c2Zmk",
+        "buyPrice": 0.000028992603314215375,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996200363,
+        "executionTime": 64.888,
+        "success": false
+      }
+    ]
+  },
+  "8ZN71XTdVo8yRovnGLmNgW3Tgniw6A4J3JGLvPD686FP": {
+    "wallet": "8ZN71XTdVo8yRovnGLmNgW3Tgniw6A4J3JGLvPD686FP",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996216488,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "5LoZ7U4Q7HSG41Vhqh5RsCtnUMKwk3vhCw6DBYxRpump",
+        "creator": "8ZN71XTdVo8yRovnGLmNgW3Tgniw6A4J3JGLvPD686FP",
+        "buyPrice": 0.000029986335572167195,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996216488,
+        "executionTime": 75.992,
+        "success": false
+      }
+    ]
+  },
+  "8Q6qACegxzGVT6acrN59DffHWQ6ckxRVTbkzBBVajsaf": {
+    "wallet": "8Q6qACegxzGVT6acrN59DffHWQ6ckxRVTbkzBBVajsaf",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.01717296600000001,
+    "averageProfit": -0.01717296600000001,
+    "lastTradeTimestamp": 1741996043518,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "ADXjpuPnHJ3TayEL2p31Bw2mnVK4qfh8xDJc3uHZpump",
+        "creator": "8Q6qACegxzGVT6acrN59DffHWQ6ckxRVTbkzBBVajsaf",
+        "buyPrice": 0.0000317720646997922,
+        "sellPrice": 0.000030238453827492812,
+        "profit": -0.01717296600000001,
+        "profitPercentage": -270252.5970890448,
+        "timestamp": 1741996043518,
+        "executionTime": 39.004,
+        "success": false
+      }
+    ]
+  },
+  "AmNMqM5VbPwtG14gLBdtrqZpQrhSzavLkQPufS8CQ7LB": {
+    "wallet": "AmNMqM5VbPwtG14gLBdtrqZpQrhSzavLkQPufS8CQ7LB",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996253284,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "GcGxzZBUp1pCa26HvqBUHjszTUvzUC2RKsuDAMvSpump",
+        "creator": "AmNMqM5VbPwtG14gLBdtrqZpQrhSzavLkQPufS8CQ7LB",
+        "buyPrice": 0.000030182320596458493,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996253284,
+        "executionTime": 67.421,
+        "success": false
+      }
+    ]
+  },
+  "3ZtwP8peTwTfLUF1rgUQgUxwyeHCxfmoELXghQzKqnAJ": {
+    "wallet": "3ZtwP8peTwTfLUF1rgUQgUxwyeHCxfmoELXghQzKqnAJ",
+    "totalTrades": 2,
+    "successfulTrades": 0,
+    "failedTrades": 2,
+    "totalProfit": -0.01986871600000001,
+    "averageProfit": -0.009934358000000004,
+    "lastTradeTimestamp": 1741996485387,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "HpoGvK535ZMD2quyNs9wfhQg5cJpxmRYi8UD3zRUpump",
+        "creator": "3ZtwP8peTwTfLUF1rgUQgUxwyeHCxfmoELXghQzKqnAJ",
+        "buyPrice": 0.00003418003371734283,
+        "sellPrice": 0.000028284774516086725,
+        "profit": -0.01986871600000001,
+        "profitPercentage": -290647.9871305494,
+        "timestamp": 1741996240050,
+        "executionTime": 76.811,
+        "success": false
+      },
+      {
+        "token": "HdoLo5366Lg4eaeCpWLA2ret9kQiudayTFpfBMRzpump",
+        "creator": "3ZtwP8peTwTfLUF1rgUQgUxwyeHCxfmoELXghQzKqnAJ",
+        "buyPrice": 0.00003455391408206831,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996485387,
+        "executionTime": 65.162,
+        "success": false
+      }
+    ]
+  },
+  "3msCHvnqbkNrsMs9acLN1MEDWs9BGT6bUXotQe3xQbQS": {
+    "wallet": "3msCHvnqbkNrsMs9acLN1MEDWs9BGT6bUXotQe3xQbQS",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.031195465000000006,
+    "averageProfit": -0.031195465000000006,
+    "lastTradeTimestamp": 1741996233136,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "Birro8343GQUJqVCDW8bUVr38WBBnt3CT6ZGAe7cpump",
+        "creator": "3msCHvnqbkNrsMs9acLN1MEDWs9BGT6bUXotQe3xQbQS",
+        "buyPrice": 0.000029362576580838468,
+        "sellPrice": 0.00002831736902544556,
+        "profit": -0.031195465000000006,
+        "profitPercentage": -531211.3007881885,
+        "timestamp": 1741996233136,
+        "executionTime": 69.993,
+        "success": false
+      }
+    ]
+  },
+  "2z4B3pb5K3H1TiWTHAZnos3yvWHeCiA7phRV1ShKehCk": {
+    "wallet": "2z4B3pb5K3H1TiWTHAZnos3yvWHeCiA7phRV1ShKehCk",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996409450,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "55aBtQ4cPvSYpsMZGuZMENi9gcZjpTwmWLZfY567pump",
+        "creator": "2z4B3pb5K3H1TiWTHAZnos3yvWHeCiA7phRV1ShKehCk",
+        "buyPrice": 0.00003275891385845139,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996409450,
+        "executionTime": 70.343,
+        "success": false
+      }
+    ]
+  },
+  "swfeLz5NnpCxPfWhrQktZPn9Nj8je2axz63vFp9Psne": {
+    "wallet": "swfeLz5NnpCxPfWhrQktZPn9Nj8je2axz63vFp9Psne",
+    "totalTrades": 1,
+    "successfulTrades": 1,
+    "failedTrades": 0,
+    "totalProfit": 0.033362802999999996,
+    "averageProfit": 0.033362802999999996,
+    "lastTradeTimestamp": 1741996204266,
+    "successRate": 1,
+    "trades": [
+      {
+        "token": "8QEpHH9QhCKrp3Bk9qg7ri7gEYDzWEk7gPDBGMeFpump",
+        "creator": "swfeLz5NnpCxPfWhrQktZPn9Nj8je2axz63vFp9Psne",
+        "buyPrice": 0.00005196241237072161,
+        "sellPrice": 0.0000672550318982496,
+        "profit": 0.033362802999999996,
+        "profitPercentage": 321028.23442814575,
+        "timestamp": 1741996204266,
+        "executionTime": 19.71,
+        "success": true
+      }
+    ]
+  },
+  "35KSAaa7CD1ujeyo6D8KceHRTn9jDHrq4gRyqfo2S7LR": {
+    "wallet": "35KSAaa7CD1ujeyo6D8KceHRTn9jDHrq4gRyqfo2S7LR",
+    "totalTrades": 1,
+    "successfulTrades": 1,
+    "failedTrades": 0,
+    "totalProfit": 0.06657529399999998,
+    "averageProfit": 0.06657529399999998,
+    "lastTradeTimestamp": 1741996201848,
+    "successRate": 1,
+    "trades": [
+      {
+        "token": "CUqvZocpfn885ByQTVQuzftPMbxackDRkPsC9KSygTKG",
+        "creator": "35KSAaa7CD1ujeyo6D8KceHRTn9jDHrq4gRyqfo2S7LR",
+        "buyPrice": 0.00003423902796842211,
+        "sellPrice": 0.00005001615021392675,
+        "profit": 0.06657529399999998,
+        "profitPercentage": 972213.5520523667,
+        "timestamp": 1741996201848,
+        "executionTime": 17.251,
+        "success": true
+      }
+    ]
+  },
+  "4A3uMiH7kYbUzz3gkosm77YuLQEbKG8Kd6j5UtfdYSK4": {
+    "wallet": "4A3uMiH7kYbUzz3gkosm77YuLQEbKG8Kd6j5UtfdYSK4",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996439030,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "Ex6QyUhsKXpt9akoAh1UsPiR5GdSP9Mg22tUp7w6pump",
+        "creator": "4A3uMiH7kYbUzz3gkosm77YuLQEbKG8Kd6j5UtfdYSK4",
+        "buyPrice": 0.00003140961634920328,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996439030,
+        "executionTime": 65.945,
+        "success": false
+      }
+    ]
+  },
+  "3DMFqQn2rvJjcCNXtiUEvXc8hs9XwVVY35671PZMKDg9": {
+    "wallet": "3DMFqQn2rvJjcCNXtiUEvXc8hs9XwVVY35671PZMKDg9",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996526289,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "77hi2LTnGytXpe9KaxnSAvw1qbPyiVudaBcg2nkw1azP",
+        "creator": "3DMFqQn2rvJjcCNXtiUEvXc8hs9XwVVY35671PZMKDg9",
+        "buyPrice": 0.000034090042188324496,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996526289,
+        "executionTime": 67.895,
+        "success": false
+      }
+    ]
+  },
+  "DXjH2tMVEQLagUKEe2fR55iKiDmjyzPyDJS8CaBhShph": {
+    "wallet": "DXjH2tMVEQLagUKEe2fR55iKiDmjyzPyDJS8CaBhShph",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.02432631199999999,
+    "averageProfit": -0.02432631199999999,
+    "lastTradeTimestamp": 1741996292418,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "FBQhozvfmPgRzXFu67co5fLNDY9AnFD2Nc84PHkmpump",
+        "creator": "DXjH2tMVEQLagUKEe2fR55iKiDmjyzPyDJS8CaBhShph",
+        "buyPrice": 0.00003291312907726084,
+        "sellPrice": 0.000028358484255129115,
+        "profit": -0.02432631199999999,
+        "profitPercentage": -369553.3162905294,
+        "timestamp": 1741996292418,
+        "executionTime": 62.282,
+        "success": false
+      }
+    ]
+  },
+  "DE9Y7YG8XSdhCJ5chvwfeAgLsMUT1nxHcov5ZcpPR8zn": {
+    "wallet": "DE9Y7YG8XSdhCJ5chvwfeAgLsMUT1nxHcov5ZcpPR8zn",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996545147,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "9xs3EvACEZt4NMp2hMFi4xcv3pgZRr45bUZfYGz6pump",
+        "creator": "DE9Y7YG8XSdhCJ5chvwfeAgLsMUT1nxHcov5ZcpPR8zn",
+        "buyPrice": 0.000033230321939384695,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996545147,
+        "executionTime": 77.629,
+        "success": false
+      }
+    ]
+  },
+  "GchEKxYp4cQgXcHUKuyXYxCSjCW1qBfqZZXUiF4Z6c6z": {
+    "wallet": "GchEKxYp4cQgXcHUKuyXYxCSjCW1qBfqZZXUiF4Z6c6z",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996605904,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "G2gLThr5U44LyKJqzrmsuqDooT1szibsS2dYpzGipump",
+        "creator": "GchEKxYp4cQgXcHUKuyXYxCSjCW1qBfqZZXUiF4Z6c6z",
+        "buyPrice": 0.000031174257431825684,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996605904,
+        "executionTime": 66.467,
+        "success": false
+      }
+    ]
+  },
+  "DChRNL83RBcPRT5mcRGdbThLGkLbGjjqZbF27TtkXQyv": {
+    "wallet": "DChRNL83RBcPRT5mcRGdbThLGkLbGjjqZbF27TtkXQyv",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.02283548299999999,
+    "averageProfit": -0.02283548299999999,
+    "lastTradeTimestamp": 1741996235667,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "4tjzNavbQZ25tuJmykcn71J8g57gViRS9r5od3X1pump",
+        "creator": "DChRNL83RBcPRT5mcRGdbThLGkLbGjjqZbF27TtkXQyv",
+        "buyPrice": 0.000031012737335006115,
+        "sellPrice": 0.000031409114325896315,
+        "profit": -0.02283548299999999,
+        "profitPercentage": -368162.97048090753,
+        "timestamp": 1741996235667,
+        "executionTime": 71.671,
+        "success": false
+      }
+    ]
+  },
+  "2S3D8UwVvHpEWjrPJSngBAbRhEmVbJHdt74y1Y6a2wYE": {
+    "wallet": "2S3D8UwVvHpEWjrPJSngBAbRhEmVbJHdt74y1Y6a2wYE",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996667601,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "8FEYXuUBrtu7LUa632zHf3vAFMNZ1ammT87Bhsdwpump",
+        "creator": "2S3D8UwVvHpEWjrPJSngBAbRhEmVbJHdt74y1Y6a2wYE",
+        "buyPrice": 0.000030182320596458493,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996667601,
+        "executionTime": 73.673,
+        "success": false
+      }
+    ]
+  },
+  "GL4hmfvivJ7BvHJmizn72X5eFJk5j2nx3opGyv3pd3Ke": {
+    "wallet": "GL4hmfvivJ7BvHJmizn72X5eFJk5j2nx3opGyv3pd3Ke",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996685544,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "BsxfdLArWXDsVgxJB1ThvvBE8hiZDtZkEiUxgxTpump",
+        "creator": "GL4hmfvivJ7BvHJmizn72X5eFJk5j2nx3opGyv3pd3Ke",
+        "buyPrice": 0.000033349541046977743,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996685544,
+        "executionTime": 74.119,
+        "success": false
+      }
+    ]
+  },
+  "97GorbQpzBbFAbo6jRPMDcdPHN9PPh2qnTrnLKi4Kpt": {
+    "wallet": "97GorbQpzBbFAbo6jRPMDcdPHN9PPh2qnTrnLKi4Kpt",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996703421,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "7jNYSQMvNhPscbGhNQrGEoaeTsqxUaG87zn5nzAzpump",
+        "creator": "97GorbQpzBbFAbo6jRPMDcdPHN9PPh2qnTrnLKi4Kpt",
+        "buyPrice": 0.00003388955557259286,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996703421,
+        "executionTime": 70.51,
+        "success": false
+      }
+    ]
+  },
+  "59JK143z23ikqbqbqgqdKhgp8wcZ7UXpo1yvnSs1LdYQ": {
+    "wallet": "59JK143z23ikqbqbqgqdKhgp8wcZ7UXpo1yvnSs1LdYQ",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.10403040099999998,
+    "averageProfit": -0.10403040099999998,
+    "lastTradeTimestamp": 1741996617796,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "J7tXiURqaZWbXd9jxpfUyUNFPPSNqBJneEkVUny5N9Te",
+        "creator": "59JK143z23ikqbqbqgqdKhgp8wcZ7UXpo1yvnSs1LdYQ",
+        "buyPrice": 0.00004653185774508778,
+        "sellPrice": 0.000028203423962874665,
+        "profit": -0.10403040099999998,
+        "profitPercentage": -1117840.6154542812,
+        "timestamp": 1741996617796,
+        "executionTime": 46.695,
+        "success": false
+      }
+    ]
+  },
+  "6HsDxGbxPhqACKY8SHDcvTbC2jP7shWc2jhdJWx9rV44": {
+    "wallet": "6HsDxGbxPhqACKY8SHDcvTbC2jP7shWc2jhdJWx9rV44",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996802097,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "HP47chRUWuf53NE9cX6P8nLY27HuZhXtf5zgYUY1pump",
+        "creator": "6HsDxGbxPhqACKY8SHDcvTbC2jP7shWc2jhdJWx9rV44",
+        "buyPrice": 0.000029799957681724844,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996802097,
+        "executionTime": 75.284,
+        "success": false
+      }
+    ]
+  },
+  "CPH1SWuGbXqUK86shZczj7wf8hNFPtrkGkzaQhhxUnFN": {
+    "wallet": "CPH1SWuGbXqUK86shZczj7wf8hNFPtrkGkzaQhhxUnFN",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996846378,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "kT2XFiSq4y818zn6UUoNuVjWiSFuy4WJoUxJxFwpump",
+        "creator": "CPH1SWuGbXqUK86shZczj7wf8hNFPtrkGkzaQhhxUnFN",
+        "buyPrice": 0.00003446552076312337,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996846378,
+        "executionTime": 73.615,
+        "success": false
+      }
+    ]
+  },
+  "DFSMCAFQiNG3xeBttnryqZLsSsrcxsvwdZYFsiADiepi": {
+    "wallet": "DFSMCAFQiNG3xeBttnryqZLsSsrcxsvwdZYFsiADiepi",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1741996859608,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "CYAYVQp6BSndtGWCYPhsb62iWPK7AK7Jgd4XHY8Gpump",
+        "creator": "DFSMCAFQiNG3xeBttnryqZLsSsrcxsvwdZYFsiADiepi",
+        "buyPrice": 0.00004848230374994661,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1741996859608,
+        "executionTime": 75.499,
+        "success": false
+      }
+    ]
+  },
+  "Wjp4LWdswnXC94kDAMvJWGVto1fs77SyruTty7fdGBq": {
+    "wallet": "Wjp4LWdswnXC94kDAMvJWGVto1fs77SyruTty7fdGBq",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.02914170199999999,
+    "averageProfit": -0.02914170199999999,
+    "lastTradeTimestamp": 1742247252078,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "AmW5v1TwLqqhbmmW4QzBa6ZaGeUHxyo7eaC5TmaLpump",
+        "creator": "Wjp4LWdswnXC94kDAMvJWGVto1fs77SyruTty7fdGBq",
+        "buyPrice": 0.00003215001242621927,
+        "sellPrice": 0.000032208249018824516,
+        "profit": -0.02914170199999999,
+        "profitPercentage": -453214.4749069224,
+        "timestamp": 1742247252078,
+        "executionTime": 40.292,
+        "success": false
+      }
+    ]
+  },
+  "BYE5XnuKPTV2z6PZy8a1eZ2PFe3i8MTgLWaKddPktdiK": {
+    "wallet": "BYE5XnuKPTV2z6PZy8a1eZ2PFe3i8MTgLWaKddPktdiK",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.033400186,
+    "averageProfit": -0.033400186,
+    "lastTradeTimestamp": 1742247275654,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "hLLb3sv3gxrhMZShJyZXvM6n1dxW6vA95nX8FCKpump",
+        "creator": "BYE5XnuKPTV2z6PZy8a1eZ2PFe3i8MTgLWaKddPktdiK",
+        "buyPrice": 0.000031786508134725076,
+        "sellPrice": 0.000028289798504211865,
+        "profit": -0.033400186,
+        "profitPercentage": -525383.0628145037,
+        "timestamp": 1742247275654,
+        "executionTime": 39.997,
+        "success": false
+      }
+    ]
+  },
+  "3wVcaGDbVNvah344aMEVnPRRu89dPRZ5Xad5D2eCTK1U": {
+    "wallet": "3wVcaGDbVNvah344aMEVnPRRu89dPRZ5Xad5D2eCTK1U",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.060895845999999976,
+    "averageProfit": -0.060895845999999976,
+    "lastTradeTimestamp": 1742247291592,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "AVFnDpspDpR69akAAFt39QkQzqqko4PHTNNHVqGApump",
+        "creator": "3wVcaGDbVNvah344aMEVnPRRu89dPRZ5Xad5D2eCTK1U",
+        "buyPrice": 0.000044921289661010597,
+        "sellPrice": 0.00003896506288740763,
+        "profit": -0.060895845999999976,
+        "profitPercentage": -677806.0743529197,
+        "timestamp": 1742247291592,
+        "executionTime": 40.138,
+        "success": false
+      }
+    ]
+  },
+  "CE6eZxCei5ZA93aJVBu5ovMcXvesybqVV6r7PhxQ22sM": {
+    "wallet": "CE6eZxCei5ZA93aJVBu5ovMcXvesybqVV6r7PhxQ22sM",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742247331838,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "BdkuuxJeB4TZsaugCQ1kQjnuq6ZSwYAaTYAW8PQS5qnZ",
+        "creator": "CE6eZxCei5ZA93aJVBu5ovMcXvesybqVV6r7PhxQ22sM",
+        "buyPrice": 0.000030700106075563685,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742247331838,
+        "executionTime": 64.666,
+        "success": false
+      }
+    ]
+  },
+  "HLC3yQziS9pcRqiuMZVXF6kSTnDzMdWc44fJrhXGMPsx": {
+    "wallet": "HLC3yQziS9pcRqiuMZVXF6kSTnDzMdWc44fJrhXGMPsx",
+    "totalTrades": 2,
+    "successfulTrades": 0,
+    "failedTrades": 2,
+    "totalProfit": -0.007983689000000016,
+    "averageProfit": -0.003991844500000008,
+    "lastTradeTimestamp": 1742252493643,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "CyT7fwR5MQCSGRdh6XPQozvw668dyamsegTj4H5hpump",
+        "creator": "HLC3yQziS9pcRqiuMZVXF6kSTnDzMdWc44fJrhXGMPsx",
+        "buyPrice": 0.000035229754659126095,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742247358864,
+        "executionTime": 64.634,
+        "success": false
+      },
+      {
+        "token": "6PSSscmFGpzMo7ooKyqqqrUeLB7RSeF6JYBrdrdUpump",
+        "creator": "HLC3yQziS9pcRqiuMZVXF6kSTnDzMdWc44fJrhXGMPsx",
+        "buyPrice": 0.00003230568317712016,
+        "sellPrice": 0.000028379348800646647,
+        "profit": -0.007983689000000016,
+        "profitPercentage": -123564.77583570033,
+        "timestamp": 1742252493643,
+        "executionTime": 39.14,
+        "success": false
+      }
+    ]
+  },
+  "3NtLM461RxNxoXun4DrbvEpByFJEmjVJgrAr79WuGuMp": {
+    "wallet": "3NtLM461RxNxoXun4DrbvEpByFJEmjVJgrAr79WuGuMp",
+    "totalTrades": 2,
+    "successfulTrades": 0,
+    "failedTrades": 2,
+    "totalProfit": -0.091304245,
+    "averageProfit": -0.0456521225,
+    "lastTradeTimestamp": 1742252544653,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "Bpk46jPGsS7fhcSYDh6Yj4sWLPzGmBJwG1DHqEKzpump",
+        "creator": "3NtLM461RxNxoXun4DrbvEpByFJEmjVJgrAr79WuGuMp",
+        "buyPrice": 0.000032189999999999934,
+        "sellPrice": 0.000028285615704765612,
+        "profit": -0.046296119999999996,
+        "profitPercentage": -719107.1761416602,
+        "timestamp": 1742251853753,
+        "executionTime": 41.349,
+        "success": false
+      },
+      {
+        "token": "FaUwCiSkN1wrKNXd99eW5g7gJPC5fD5QeZEwojFfpump",
+        "creator": "3NtLM461RxNxoXun4DrbvEpByFJEmjVJgrAr79WuGuMp",
+        "buyPrice": 0.00003481258291963119,
+        "sellPrice": 0.000028409773974573087,
+        "profit": -0.04500812500000001,
+        "profitPercentage": -646434.725971158,
+        "timestamp": 1742252544653,
+        "executionTime": 39.048,
+        "success": false
+      }
+    ]
+  },
+  "7LjE9U1PrdhR3i5emy6AjZc8kcAVVFuE8vfLku4bcjgp": {
+    "wallet": "7LjE9U1PrdhR3i5emy6AjZc8kcAVVFuE8vfLku4bcjgp",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742251864483,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "BqFvYM6BhndACFj2Zf81xqTqupGszt2sS3L68iw8pump",
+        "creator": "7LjE9U1PrdhR3i5emy6AjZc8kcAVVFuE8vfLku4bcjgp",
+        "buyPrice": 0.00003260974636244183,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742251864483,
+        "executionTime": 65.024,
+        "success": false
+      }
+    ]
+  },
+  "83QQFLxcEzuJZaejBnzAiW5tyfyaRHMLZnkhJbRPRWtf": {
+    "wallet": "83QQFLxcEzuJZaejBnzAiW5tyfyaRHMLZnkhJbRPRWtf",
+    "totalTrades": 2,
+    "successfulTrades": 0,
+    "failedTrades": 2,
+    "totalProfit": -0.038173293,
+    "averageProfit": -0.0190866465,
+    "lastTradeTimestamp": 1742251965726,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "ARzAwJSq1HLSHBEKxBqj2UgPsRBFMoXBgtVQCFzh9L3H",
+        "creator": "83QQFLxcEzuJZaejBnzAiW5tyfyaRHMLZnkhJbRPRWtf",
+        "buyPrice": 0.00003234568485063931,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742251891937,
+        "executionTime": 64.954,
+        "success": false
+      },
+      {
+        "token": "F1cVxMV3VRaw4kD78d3cAC8tAkygEzjxYhEwtnmiiM2e",
+        "creator": "83QQFLxcEzuJZaejBnzAiW5tyfyaRHMLZnkhJbRPRWtf",
+        "buyPrice": 0.000035890019020568476,
+        "sellPrice": 0.00002840556905959526,
+        "profit": -0.038173293,
+        "profitPercentage": -531809.3169318603,
+        "timestamp": 1742251965726,
+        "executionTime": 38.828,
+        "success": false
+      }
+    ]
+  },
+  "2HJMgsEqKrcRNDqo1P9g9pCFEXSdi2VtKqDKg9qhikco": {
+    "wallet": "2HJMgsEqKrcRNDqo1P9g9pCFEXSdi2VtKqDKg9qhikco",
+    "totalTrades": 3,
+    "successfulTrades": 1,
+    "failedTrades": 2,
+    "totalProfit": 0.043617340000000004,
+    "averageProfit": 0.014539113333333334,
+    "lastTradeTimestamp": 1742252672845,
+    "successRate": 0.3333333333333333,
+    "trades": [
+      {
+        "token": "HqndkJBgofXAgeBofhvbDxMNAJ4MhQfnitQA6YtMpump",
+        "creator": "2HJMgsEqKrcRNDqo1P9g9pCFEXSdi2VtKqDKg9qhikco",
+        "buyPrice": 0.00003452743280868839,
+        "sellPrice": 0.00004311114483522738,
+        "profit": 0.043617340000000004,
+        "profitPercentage": 631633.1167984238,
+        "timestamp": 1742251899625,
+        "executionTime": 8.573,
+        "success": true
+      },
+      {
+        "token": "DXtcoGYfQMrNnjBiSjsmmUEBh8iH57hZJ2za5Kopump",
+        "creator": "2HJMgsEqKrcRNDqo1P9g9pCFEXSdi2VtKqDKg9qhikco",
+        "buyPrice": 0.00003518434891068511,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252284759,
+        "executionTime": 64.276,
+        "success": false
+      },
+      {
+        "token": "5AQdXNbCWktT4ePC1L2s6pdyV1jkPhLGQAXqNWMbpump",
+        "creator": "2HJMgsEqKrcRNDqo1P9g9pCFEXSdi2VtKqDKg9qhikco",
+        "buyPrice": 0.00006528601539897674,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252672845,
+        "executionTime": 64.657,
+        "success": false
+      }
+    ]
+  },
+  "Ht7CiVFCN3WbzoL2MNJsJAtHABuEGkvoq4FSuKGzyKq1": {
+    "wallet": "Ht7CiVFCN3WbzoL2MNJsJAtHABuEGkvoq4FSuKGzyKq1",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742251902305,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "49QZjWHjZpd2oJ3ePUsPS4wWCFV8euhLpyQEyQvspump",
+        "creator": "Ht7CiVFCN3WbzoL2MNJsJAtHABuEGkvoq4FSuKGzyKq1",
+        "buyPrice": 0.00005187217317550459,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742251902305,
+        "executionTime": 64.461,
+        "success": false
+      }
+    ]
+  },
+  "D3sovmjANgA8V27e5rnQft8kV3mocSH8gw9zwth3Ba9g": {
+    "wallet": "D3sovmjANgA8V27e5rnQft8kV3mocSH8gw9zwth3Ba9g",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742251913000,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "12UFeogEvFDQsB4c6kkF1FbL3PvNiiduLoYQGSZQAFdN",
+        "creator": "D3sovmjANgA8V27e5rnQft8kV3mocSH8gw9zwth3Ba9g",
+        "buyPrice": 0.00003383038210726932,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742251913000,
+        "executionTime": 64.109,
+        "success": false
+      }
+    ]
+  },
+  "9AqM8WPi7briaNyeYE7Qz7KEjqNidamLELHnhXy1tS3U": {
+    "wallet": "9AqM8WPi7briaNyeYE7Qz7KEjqNidamLELHnhXy1tS3U",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742251924709,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "6tZPhgkBx85kCMAL7t1eKM6CXxrU9aHgjViSJwkCpump",
+        "creator": "9AqM8WPi7briaNyeYE7Qz7KEjqNidamLELHnhXy1tS3U",
+        "buyPrice": 0.00002857438041105456,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742251924709,
+        "executionTime": 64.617,
+        "success": false
+      }
+    ]
+  },
+  "DR7ghPiRVBJ3YeP3FUJRuSa4XaWq4Pkw8ZM4JYs1PyJ9": {
+    "wallet": "DR7ghPiRVBJ3YeP3FUJRuSa4XaWq4Pkw8ZM4JYs1PyJ9",
+    "totalTrades": 2,
+    "successfulTrades": 0,
+    "failedTrades": 2,
+    "totalProfit": -0.093404939,
+    "averageProfit": -0.0467024695,
+    "lastTradeTimestamp": 1742252394077,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "HPCkq95PzhPb1L49ANMCt6GSYYh9phPtrv2keKAupump",
+        "creator": "DR7ghPiRVBJ3YeP3FUJRuSa4XaWq4Pkw8ZM4JYs1PyJ9",
+        "buyPrice": 0.000028021634967344652,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742251936425,
+        "executionTime": 65.283,
+        "success": false
+      },
+      {
+        "token": "5SZ1LZyEPq3ykPyvuC6ow7PfGsDUTHMEK28tRYC8pump",
+        "creator": "DR7ghPiRVBJ3YeP3FUJRuSa4XaWq4Pkw8ZM4JYs1PyJ9",
+        "buyPrice": 0.00005463546422177277,
+        "sellPrice": 0.00003025862663844027,
+        "profit": -0.093404939,
+        "profitPercentage": -854801.3669368367,
+        "timestamp": 1742252394077,
+        "executionTime": 21.102,
+        "success": false
+      }
+    ]
+  },
+  "CLd8Tx4U22qZQ7fuL3CjqGv3ijLD24JhoP6145sGMC2H": {
+    "wallet": "CLd8Tx4U22qZQ7fuL3CjqGv3ijLD24JhoP6145sGMC2H",
+    "totalTrades": 2,
+    "successfulTrades": 0,
+    "failedTrades": 2,
+    "totalProfit": -0.010123014999999985,
+    "averageProfit": -0.005061507499999993,
+    "lastTradeTimestamp": 1742252173151,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "AeQ6WcXGVEcXLJzTgTAsHCAzDy2Mu76pdB8Ne5Vnpump",
+        "creator": "CLd8Tx4U22qZQ7fuL3CjqGv3ijLD24JhoP6145sGMC2H",
+        "buyPrice": 0.000030440308373346142,
+        "sellPrice": 0.000030276237856149774,
+        "profit": -0.010123014999999985,
+        "profitPercentage": -166276.4857018302,
+        "timestamp": 1742251953525,
+        "executionTime": 41.574,
+        "success": false
+      },
+      {
+        "token": "FVxn8UzNnhYs9qhuxWkzLZJbR9RZnBB8kDWUBZthpump",
+        "creator": "CLd8Tx4U22qZQ7fuL3CjqGv3ijLD24JhoP6145sGMC2H",
+        "buyPrice": 0.000030182320596458493,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252173151,
+        "executionTime": 64.42,
+        "success": false
+      }
+    ]
+  },
+  "HAYMh9UUJfeH3N1EJBY3SBxDvDh2mqzpGMr6VHVysxtM": {
+    "wallet": "HAYMh9UUJfeH3N1EJBY3SBxDvDh2mqzpGMr6VHVysxtM",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.03033067899999997,
+    "averageProfit": -0.03033067899999997,
+    "lastTradeTimestamp": 1742252006300,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "DYr7tHeJua8meWZhkiHts12tnb9CaU4ag8a3XHKGpump",
+        "creator": "HAYMh9UUJfeH3N1EJBY3SBxDvDh2mqzpGMr6VHVysxtM",
+        "buyPrice": 0.00003259124260704696,
+        "sellPrice": 0.000029045217564484177,
+        "profit": -0.03033067899999997,
+        "profitPercentage": -465319.46274183784,
+        "timestamp": 1742252006300,
+        "executionTime": 38.65,
+        "success": false
+      }
+    ]
+  },
+  "4vejd1ryEbERFScGxK5kBCAR5yoZaRV2Z296gUUEToVu": {
+    "wallet": "4vejd1ryEbERFScGxK5kBCAR5yoZaRV2Z296gUUEToVu",
+    "totalTrades": 2,
+    "successfulTrades": 0,
+    "failedTrades": 2,
+    "totalProfit": -0.032834118999999995,
+    "averageProfit": -0.016417059499999997,
+    "lastTradeTimestamp": 1742252451857,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "85ytbDoXmg13C4N7zJAmtnQWFHNVQ4JAbcUjymGtpump",
+        "creator": "4vejd1ryEbERFScGxK5kBCAR5yoZaRV2Z296gUUEToVu",
+        "buyPrice": 0.000033462329887129304,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252015463,
+        "executionTime": 64.402,
+        "success": false
+      },
+      {
+        "token": "5TmXSx3JnmCBgEyzMa1swzjhk5SkBMc6NW1ryrjfpump",
+        "creator": "4vejd1ryEbERFScGxK5kBCAR5yoZaRV2Z296gUUEToVu",
+        "buyPrice": 0.00003215001242621927,
+        "sellPrice": 0.000028286025509450468,
+        "profit": -0.032834118999999995,
+        "profitPercentage": -510639.28941475024,
+        "timestamp": 1742252451857,
+        "executionTime": 38.612,
+        "success": false
+      }
+    ]
+  },
+  "5YxRTJkCbAmvcfYkhs2VnLFAp4w7Cqv7Cs9i7iCiLsej": {
+    "wallet": "5YxRTJkCbAmvcfYkhs2VnLFAp4w7Cqv7Cs9i7iCiLsej",
+    "totalTrades": 3,
+    "successfulTrades": 0,
+    "failedTrades": 3,
+    "totalProfit": -0.012602259999999976,
+    "averageProfit": -0.004200753333333325,
+    "lastTradeTimestamp": 1742252754420,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "CRWyR5c1PaBi6DAP1U7LyzNZjW6FqMK6i8sgPB18pump",
+        "creator": "5YxRTJkCbAmvcfYkhs2VnLFAp4w7Cqv7Cs9i7iCiLsej",
+        "buyPrice": 0.00003380924802490365,
+        "sellPrice": 0.000032188586341620226,
+        "profit": -0.006295864999999984,
+        "profitPercentage": -93108.62216400812,
+        "timestamp": 1742252018018,
+        "executionTime": 38.692,
+        "success": false
+      },
+      {
+        "token": "EGudrxCwEijG7sMS4Hz1nKcWKMW6eKzXUtZzSYq8pump",
+        "creator": "5YxRTJkCbAmvcfYkhs2VnLFAp4w7Cqv7Cs9i7iCiLsej",
+        "buyPrice": 0.0000338112021550699,
+        "sellPrice": 0.00003218856433413083,
+        "profit": -0.006306394999999992,
+        "profitPercentage": -93258.95854096932,
+        "timestamp": 1742252533087,
+        "executionTime": 41.846,
+        "success": false
+      },
+      {
+        "token": "7CvMVCyCmw5oJGzfEoaY7pRFtgeFA8moLzpj19Qwpump",
+        "creator": "5YxRTJkCbAmvcfYkhs2VnLFAp4w7Cqv7Cs9i7iCiLsej",
+        "buyPrice": 0.000031811121468282045,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252754420,
+        "executionTime": 64.845,
+        "success": false
+      }
+    ]
+  },
+  "4VeppVJX9SJbEDXLHzExUW746BQkFiRWmof7pu1gtibw": {
+    "wallet": "4VeppVJX9SJbEDXLHzExUW746BQkFiRWmof7pu1gtibw",
+    "totalTrades": 1,
+    "successfulTrades": 1,
+    "failedTrades": 0,
+    "totalProfit": 0.103323589,
+    "averageProfit": 0.103323589,
+    "lastTradeTimestamp": 1742252048559,
+    "successRate": 1,
+    "trades": [
+      {
+        "token": "4NbjVfkcuravoKxQ8TJGbpyayKoYX3ostoobYDEEpump",
+        "creator": "4VeppVJX9SJbEDXLHzExUW746BQkFiRWmof7pu1gtibw",
+        "buyPrice": 0.000033872168526748265,
+        "sellPrice": 0.00004284687838736124,
+        "profit": 0.103323589,
+        "profitPercentage": 1525198.9095178116,
+        "timestamp": 1742252048559,
+        "executionTime": 9.001,
+        "success": true
+      }
+    ]
+  },
+  "9v5L4HX8zRCpRmoSNMEtMro9Bxnw1YpYnWzjfZyuCG1R": {
+    "wallet": "9v5L4HX8zRCpRmoSNMEtMro9Bxnw1YpYnWzjfZyuCG1R",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252060763,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "88jRqfFuBrq5c3j8hA6dLRndZzZhL56SKRGf98Acpump",
+        "creator": "9v5L4HX8zRCpRmoSNMEtMro9Bxnw1YpYnWzjfZyuCG1R",
+        "buyPrice": 0.00003276123885707704,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252060763,
+        "executionTime": 65.055,
+        "success": false
+      }
+    ]
+  },
+  "3W548W41XyqoxnPAMm2JzAtuvRmRMjcnMXizwBhYXJ6g": {
+    "wallet": "3W548W41XyqoxnPAMm2JzAtuvRmRMjcnMXizwBhYXJ6g",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252070681,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "JBYzNmcV5LmNPhH8pFZ9t7PEp9Edfzqg3FJ5xrw3pump",
+        "creator": "3W548W41XyqoxnPAMm2JzAtuvRmRMjcnMXizwBhYXJ6g",
+        "buyPrice": 0.00003236798796659611,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252070681,
+        "executionTime": 64.717,
+        "success": false
+      }
+    ]
+  },
+  "DTttEVd7rWyFgV2DBX51ZAPbFzLmPSEcTXx4omsTGY12": {
+    "wallet": "DTttEVd7rWyFgV2DBX51ZAPbFzLmPSEcTXx4omsTGY12",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252090356,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "9jD4uSia23gACcktDqMVhrbRLcbfJzLoncHN88UPpump",
+        "creator": "DTttEVd7rWyFgV2DBX51ZAPbFzLmPSEcTXx4omsTGY12",
+        "buyPrice": 0.00003214856390658662,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252090356,
+        "executionTime": 65.128,
+        "success": false
+      }
+    ]
+  },
+  "6zpxFKYjBHbbbgFpNwVXPjV6j6aKHX6n1HpXmEKpe3zD": {
+    "wallet": "6zpxFKYjBHbbbgFpNwVXPjV6j6aKHX6n1HpXmEKpe3zD",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.02267801,
+    "averageProfit": -0.02267801,
+    "lastTradeTimestamp": 1742252090398,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "B7RBSrenPp5nJpP5FDopqx5Tjdst4RCMruhTt2k7pump",
+        "creator": "6zpxFKYjBHbbbgFpNwVXPjV6j6aKHX6n1HpXmEKpe3zD",
+        "buyPrice": 0.000031625145342971744,
+        "sellPrice": 0.0000294230895409925,
+        "profit": -0.02267801,
+        "profitPercentage": -358543.9648428347,
+        "timestamp": 1742252090398,
+        "executionTime": 39.8,
+        "success": false
+      }
+    ]
+  },
+  "FjeaKDFAgexEPZbAFHwE4cL1MFvn1o6EL1qehcmVStCX": {
+    "wallet": "FjeaKDFAgexEPZbAFHwE4cL1MFvn1o6EL1qehcmVStCX",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.03073481399999997,
+    "averageProfit": -0.03073481399999997,
+    "lastTradeTimestamp": 1742252121885,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "5WxSvQ5425scbEqFKEm1ZsEwVwb1vDg7QxusQ3K8pump",
+        "creator": "FjeaKDFAgexEPZbAFHwE4cL1MFvn1o6EL1qehcmVStCX",
+        "buyPrice": 0.00003182134707037138,
+        "sellPrice": 0.000028298008455385127,
+        "profit": -0.03073481399999997,
+        "profitPercentage": -482927.6072447751,
+        "timestamp": 1742252121885,
+        "executionTime": 39.658,
+        "success": false
+      }
+    ]
+  },
+  "CA33MjJMLiAMNSux2azP58Lj1hnCcXKL1VLW5au1NT7C": {
+    "wallet": "CA33MjJMLiAMNSux2azP58Lj1hnCcXKL1VLW5au1NT7C",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252133385,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "A8two6bqAPJYXE9nz4TLJTT6f7Ye7mvHMXTfVLRBpump",
+        "creator": "CA33MjJMLiAMNSux2azP58Lj1hnCcXKL1VLW5au1NT7C",
+        "buyPrice": 0.00003215182448107693,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252133385,
+        "executionTime": 64.311,
+        "success": false
+      }
+    ]
+  },
+  "AVhWtP8Adaxn2zYeav6eBhVxAxWF9Lw8P1oXWasQk2V4": {
+    "wallet": "AVhWtP8Adaxn2zYeav6eBhVxAxWF9Lw8P1oXWasQk2V4",
+    "totalTrades": 2,
+    "successfulTrades": 0,
+    "failedTrades": 2,
+    "totalProfit": -0.041921180999999974,
+    "averageProfit": -0.020960590499999987,
+    "lastTradeTimestamp": 1742252721388,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "5YSrx5zQAMziZrnWPrwHSCrRjsKxYinQyhCA1pywpump",
+        "creator": "AVhWtP8Adaxn2zYeav6eBhVxAxWF9Lw8P1oXWasQk2V4",
+        "buyPrice": 0.00003101719322944297,
+        "sellPrice": 0.000028467282375836205,
+        "profit": -0.025169476999999996,
+        "profitPercentage": -405734.2779827665,
+        "timestamp": 1742252133789,
+        "executionTime": 40.296,
+        "success": false
+      },
+      {
+        "token": "GFWbGDJkc14GuLXCtUXa29MSSR9NKB151LeoQuo4pump",
+        "creator": "AVhWtP8Adaxn2zYeav6eBhVxAxWF9Lw8P1oXWasQk2V4",
+        "buyPrice": 0.00003092013317145328,
+        "sellPrice": 0.000029705455711189268,
+        "profit": -0.01675170399999998,
+        "profitPercentage": -270886.67288577254,
+        "timestamp": 1742252721388,
+        "executionTime": 40.419,
+        "success": false
+      }
+    ]
+  },
+  "CBNGGaUuNekft8vaCeECFMBuQdLrdBHo3gYG6eeJ3ypK": {
+    "wallet": "CBNGGaUuNekft8vaCeECFMBuQdLrdBHo3gYG6eeJ3ypK",
+    "totalTrades": 1,
+    "successfulTrades": 1,
+    "failedTrades": 0,
+    "totalProfit": 0.27424612699999995,
+    "averageProfit": 0.27424612699999995,
+    "lastTradeTimestamp": 1742252178764,
+    "successRate": 1,
+    "trades": [
+      {
+        "token": "Dt2TYto3CZC2mQcpZmaarP2EXqeJ1wVRoEq1rgfppump",
+        "creator": "CBNGGaUuNekft8vaCeECFMBuQdLrdBHo3gYG6eeJ3ypK",
+        "buyPrice": 0.000032908133921313184,
+        "sellPrice": 0.00006515710051987508,
+        "profit": 0.27424612699999995,
+        "profitPercentage": 4166844.0947723035,
+        "timestamp": 1742252178764,
+        "executionTime": 10.899,
+        "success": true
+      }
+    ]
+  },
+  "2dJZFteutqzB5TJ4PmKb6VR4V2q6xKg7WczsmuXceRkx": {
+    "wallet": "2dJZFteutqzB5TJ4PmKb6VR4V2q6xKg7WczsmuXceRkx",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.019288790999999972,
+    "averageProfit": -0.019288790999999972,
+    "lastTradeTimestamp": 1742252201052,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "AvSZ1omhAj1Nb53xnqzqLUvDrBA7VzZhCptGnv3dLKxQ",
+        "creator": "2dJZFteutqzB5TJ4PmKb6VR4V2q6xKg7WczsmuXceRkx",
+        "buyPrice": 0.000029973578764541,
+        "sellPrice": 0.000028313793580419675,
+        "profit": -0.019288790999999972,
+        "profitPercentage": -321763.22940153506,
+        "timestamp": 1742252201052,
+        "executionTime": 40.335,
+        "success": false
+      }
+    ]
+  },
+  "DELbDp8aqYHZ36GWzEhvQxBdeajSyDBDPY4ufeLAqyaH": {
+    "wallet": "DELbDp8aqYHZ36GWzEhvQxBdeajSyDBDPY4ufeLAqyaH",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252209922,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "FnTqB5UZRUx3W5Q2o739Nq9SREXZ5dkpNtwhFwrXpump",
+        "creator": "DELbDp8aqYHZ36GWzEhvQxBdeajSyDBDPY4ufeLAqyaH",
+        "buyPrice": 0.000046991782715455924,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252209922,
+        "executionTime": 64.985,
+        "success": false
+      }
+    ]
+  },
+  "GiGGiBrFBXWu47pB98jWbkLgq4jh5DGVSqPYCnUuE9GH": {
+    "wallet": "GiGGiBrFBXWu47pB98jWbkLgq4jh5DGVSqPYCnUuE9GH",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252240978,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "FuQ5U9Q4MEkpAV3etQWyZMqgfbHmmvV9T8ZTgm8Ypump",
+        "creator": "GiGGiBrFBXWu47pB98jWbkLgq4jh5DGVSqPYCnUuE9GH",
+        "buyPrice": 0.00003522131565727427,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252240978,
+        "executionTime": 64.999,
+        "success": false
+      }
+    ]
+  },
+  "Fk4CrfSpruaYsNB1d7AYB9Vhf3WbEBqLNFrxHCPSSxEJ": {
+    "wallet": "Fk4CrfSpruaYsNB1d7AYB9Vhf3WbEBqLNFrxHCPSSxEJ",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.027418527999999998,
+    "averageProfit": -0.027418527999999998,
+    "lastTradeTimestamp": 1742252242275,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "AcHZDxCpa5ydF91bxTWpXt3fx41UUvom1Sw3hPefpump",
+        "creator": "Fk4CrfSpruaYsNB1d7AYB9Vhf3WbEBqLNFrxHCPSSxEJ",
+        "buyPrice": 0.000031644056217638425,
+        "sellPrice": 0.000028676115265359138,
+        "profit": -0.027418527999999998,
+        "profitPercentage": -433233.4611502315,
+        "timestamp": 1742252242275,
+        "executionTime": 41.382,
+        "success": false
+      }
+    ]
+  },
+  "37CmJgz3jDnxwGjAg1aAGJz9z2DUUqX4K9pqm8RTeBwf": {
+    "wallet": "37CmJgz3jDnxwGjAg1aAGJz9z2DUUqX4K9pqm8RTeBwf",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.025116326999999994,
+    "averageProfit": -0.025116326999999994,
+    "lastTradeTimestamp": 1742252284664,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "29XyDMbuMp1psvupJHLs6bcw6HBf5CiDnPU6U4qhpump",
+        "creator": "37CmJgz3jDnxwGjAg1aAGJz9z2DUUqX4K9pqm8RTeBwf",
+        "buyPrice": 0.00003082479030852749,
+        "sellPrice": 0.000028300213736917745,
+        "profit": -0.025116326999999994,
+        "profitPercentage": -407404.6692387671,
+        "timestamp": 1742252284664,
+        "executionTime": 39.627,
+        "success": false
+      }
+    ]
+  },
+  "5FmjhJSsH2WuYsj4q5ZoHN8CGED5ArcWraWXATD9qkhp": {
+    "wallet": "5FmjhJSsH2WuYsj4q5ZoHN8CGED5ArcWraWXATD9qkhp",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252318304,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "xj1ei5wkQowj7R2HsJUEhabDddQfkWvHgCn3XdXpump",
+        "creator": "5FmjhJSsH2WuYsj4q5ZoHN8CGED5ArcWraWXATD9qkhp",
+        "buyPrice": 0.000028484901434068714,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252318304,
+        "executionTime": 64.621,
+        "success": false
+      }
+    ]
+  },
+  "ADC1QV9raLnGGDbnWdnsxazeZ4Tsiho4vrWadYswA2ph": {
+    "wallet": "ADC1QV9raLnGGDbnWdnsxazeZ4Tsiho4vrWadYswA2ph",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252341080,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "dJjCdJnRWWAKnk7Y64UyzWFvfmiiwWSdPofiyR3pump",
+        "creator": "ADC1QV9raLnGGDbnWdnsxazeZ4Tsiho4vrWadYswA2ph",
+        "buyPrice": 0.00003380924802490365,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252341080,
+        "executionTime": 65.174,
+        "success": false
+      }
+    ]
+  },
+  "7mZwBXe9DhoMCJGdVtujuXBZqSxQx9ggYhWjs4MtcjR1": {
+    "wallet": "7mZwBXe9DhoMCJGdVtujuXBZqSxQx9ggYhWjs4MtcjR1",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0043696559999999995,
+    "averageProfit": -0.0043696559999999995,
+    "lastTradeTimestamp": 1742252343640,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "Dv52PZeDxD1NBDT6F73eTReJxCAZLN5FbqYQBaGjpump",
+        "creator": "7mZwBXe9DhoMCJGdVtujuXBZqSxQx9ggYhWjs4MtcjR1",
+        "buyPrice": 0.000028376493587480252,
+        "sellPrice": 0.00002914187214969294,
+        "profit": -0.0043696559999999995,
+        "profitPercentage": -76994.2908296446,
+        "timestamp": 1742252343640,
+        "executionTime": 130.675,
+        "success": false
+      }
+    ]
+  },
+  "4Hg8rLs3cTkzFyskwgAhktrTwRyyToRiHk8LVf9HET9m": {
+    "wallet": "4Hg8rLs3cTkzFyskwgAhktrTwRyyToRiHk8LVf9HET9m",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.007483925000000002,
+    "averageProfit": -0.007483925000000002,
+    "lastTradeTimestamp": 1742252343647,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "AS6m6jipoed9u9DcKKZteTSReo8QG7g7HzkcRKcZpump",
+        "creator": "4Hg8rLs3cTkzFyskwgAhktrTwRyyToRiHk8LVf9HET9m",
+        "buyPrice": 0.000028025271772195325,
+        "sellPrice": 0.000028338339784189956,
+        "profit": -0.007483925000000002,
+        "profitPercentage": -133521.0066976945,
+        "timestamp": 1742252343647,
+        "executionTime": 109.581,
+        "success": false
+      }
+    ]
+  },
+  "A5VE5YPZUWYdvQGFNK9M5uuuvS222Z2Jq87uD3Qyadfi": {
+    "wallet": "A5VE5YPZUWYdvQGFNK9M5uuuvS222Z2Jq87uD3Qyadfi",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252380272,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "BUophPTG8KsA11WMNXFCYa7SLCivGnYovdMPQcRupump",
+        "creator": "A5VE5YPZUWYdvQGFNK9M5uuuvS222Z2Jq87uD3Qyadfi",
+        "buyPrice": 0.00003215001242621927,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252380272,
+        "executionTime": 64.208,
+        "success": false
+      }
+    ]
+  },
+  "G2BuySgCzxBBSWzAXyhShret1mLm7NSq3knUCdZcsA94": {
+    "wallet": "G2BuySgCzxBBSWzAXyhShret1mLm7NSq3knUCdZcsA94",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252391840,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "EuBorLfviPjTSerVb7TcD6d2ha8nuDKZhDPr9Nwupump",
+        "creator": "G2BuySgCzxBBSWzAXyhShret1mLm7NSq3knUCdZcsA94",
+        "buyPrice": 0.00003077838388110028,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252391840,
+        "executionTime": 64.798,
+        "success": false
+      }
+    ]
+  },
+  "FbAggp2eLx58LnnRdZ2CpQK1TcqQyzy47tirp7sLG1RV": {
+    "wallet": "FbAggp2eLx58LnnRdZ2CpQK1TcqQyzy47tirp7sLG1RV",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.008375143000000002,
+    "averageProfit": -0.008375143000000002,
+    "lastTradeTimestamp": 1742252400756,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "29HB7TYmmbooCzzR3qXzF4mXAntJs8ohqZDsePaBpump",
+        "creator": "FbAggp2eLx58LnnRdZ2CpQK1TcqQyzy47tirp7sLG1RV",
+        "buyPrice": 0.0000320258533587037,
+        "sellPrice": 0.00003220980306186362,
+        "profit": -0.008375143000000002,
+        "profitPercentage": -130755.96934443401,
+        "timestamp": 1742252400756,
+        "executionTime": 38.883,
+        "success": false
+      }
+    ]
+  },
+  "5UBZLYjL3f58AStzCzk4rWeRxCYGutGNtgGyuJyWuDxm": {
+    "wallet": "5UBZLYjL3f58AStzCzk4rWeRxCYGutGNtgGyuJyWuDxm",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252412818,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "8Ep9Gy5vNYtsWFdAv6MSWeehfyeMzJ5w1RZjEwLgpump",
+        "creator": "5UBZLYjL3f58AStzCzk4rWeRxCYGutGNtgGyuJyWuDxm",
+        "buyPrice": 0.000033954445243646647,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252412818,
+        "executionTime": 64.355,
+        "success": false
+      }
+    ]
+  },
+  "79T3xsB6whYVnGXicqWMRwcD7wdcZuRAmxfLJ2wipiwK": {
+    "wallet": "79T3xsB6whYVnGXicqWMRwcD7wdcZuRAmxfLJ2wipiwK",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.204562943,
+    "averageProfit": -0.204562943,
+    "lastTradeTimestamp": 1742252232342,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "CX7ummTYEkrR4939Vqs9nxmTGGdWEeKtY11FdcKHpump",
+        "creator": "79T3xsB6whYVnGXicqWMRwcD7wdcZuRAmxfLJ2wipiwK",
+        "buyPrice": 0.000038250143730376974,
+        "sellPrice": 0.00003825014373255716,
+        "profit": -0.204562943,
+        "profitPercentage": -2674015.350660539,
+        "timestamp": 1742252232342,
+        "executionTime": 42.954,
+        "success": false
+      }
+    ]
+  },
+  "DSBQeXmy4AjAarvdfbRLRbeiWuW7YwfMxcBPRBD7zBP5": {
+    "wallet": "DSBQeXmy4AjAarvdfbRLRbeiWuW7YwfMxcBPRBD7zBP5",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252462992,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "GcNZ3m4FsHqoduwxkMDd5q2aJSgCGuYW5J41mX1rpump",
+        "creator": "DSBQeXmy4AjAarvdfbRLRbeiWuW7YwfMxcBPRBD7zBP5",
+        "buyPrice": 0.00003120380994206023,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252462992,
+        "executionTime": 64.561,
+        "success": false
+      }
+    ]
+  },
+  "3jhvMRCHAoSrCAb4tzBvsz24yLf4ESMRu4YpHHusKG8m": {
+    "wallet": "3jhvMRCHAoSrCAb4tzBvsz24yLf4ESMRu4YpHHusKG8m",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.019621989000000006,
+    "averageProfit": -0.019621989000000006,
+    "lastTradeTimestamp": 1742252465309,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "4BybXpUn7yJyEJ57uHZxjeHXeCD7vYL3zqcnHwW9pump",
+        "creator": "3jhvMRCHAoSrCAb4tzBvsz24yLf4ESMRu4YpHHusKG8m",
+        "buyPrice": 0.00003187823277573952,
+        "sellPrice": 0.00003015350521832762,
+        "profit": -0.019621989000000006,
+        "profitPercentage": -307764.6922594317,
+        "timestamp": 1742252465309,
+        "executionTime": 40.913,
+        "success": false
+      }
+    ]
+  },
+  "9gnDS5oNivUzftLJDeAKqcqA3H7t8puiPHabNB3sWk8q": {
+    "wallet": "9gnDS5oNivUzftLJDeAKqcqA3H7t8puiPHabNB3sWk8q",
+    "totalTrades": 5,
+    "successfulTrades": 0,
+    "failedTrades": 5,
+    "totalProfit": -0.026892865000000016,
+    "averageProfit": -0.005378573000000003,
+    "lastTradeTimestamp": 1742341157509,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "3Vkfxj9HrSa2S48qaJNByPdLMmbrYMoH6FPqmDHKpump",
+        "creator": "9gnDS5oNivUzftLJDeAKqcqA3H7t8puiPHabNB3sWk8q",
+        "buyPrice": 0.000033082599644386384,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252503730,
+        "executionTime": 64.942,
+        "success": false
+      },
+      {
+        "token": "2zuCyYp6bvkLKav3kPMvWPabr1y8HqJZFd3mJwJjpump",
+        "creator": "9gnDS5oNivUzftLJDeAKqcqA3H7t8puiPHabNB3sWk8q",
+        "buyPrice": 0.00003234721138220711,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252645113,
+        "executionTime": 64.544,
+        "success": false
+      },
+      {
+        "token": "CGWdnrjDMY6KwtCd3F7qpJXSQt69Vzeic4TvD5yXpump",
+        "creator": "9gnDS5oNivUzftLJDeAKqcqA3H7t8puiPHabNB3sWk8q",
+        "buyPrice": 0.000031811121468282045,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252766101,
+        "executionTime": 64.993,
+        "success": false
+      },
+      {
+        "token": "DGTvGjwDp7QwLQraD7JtASzH8QjFaJkZsmQkd49qpump",
+        "creator": "9gnDS5oNivUzftLJDeAKqcqA3H7t8puiPHabNB3sWk8q",
+        "buyPrice": 0.00003215001242621927,
+        "sellPrice": 0.00002923826421238053,
+        "profit": -0.026892865000000016,
+        "profitPercentage": -418240.3515662113,
+        "timestamp": 1742252819477,
+        "executionTime": 39.34,
+        "success": false
+      },
+      {
+        "token": "2oZ5DytE4VhXehdoR8gr3XL3qTXeYaK9ndBaJTtPpump",
+        "creator": "9gnDS5oNivUzftLJDeAKqcqA3H7t8puiPHabNB3sWk8q",
+        "buyPrice": 0.000027958993478098787,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742341157509,
+        "executionTime": 62.267,
+        "success": false
+      }
+    ]
+  },
+  "5xXKMb37AShmZVPcTy1DZ7RqvghLEYc6zwbVEHmTLhKU": {
+    "wallet": "5xXKMb37AShmZVPcTy1DZ7RqvghLEYc6zwbVEHmTLhKU",
+    "totalTrades": 2,
+    "successfulTrades": 0,
+    "failedTrades": 2,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252732428,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "aXhRw6z7cpHFSozQKMm86WyRr8Mc8JjtGro1xNJpump",
+        "creator": "5xXKMb37AShmZVPcTy1DZ7RqvghLEYc6zwbVEHmTLhKU",
+        "buyPrice": 0.00003181112146629385,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252540540,
+        "executionTime": 64.942,
+        "success": false
+      },
+      {
+        "token": "CzJfmUcAxpaSo9WzMnvLLfNgi61mFd5xAbBeaB9Bpump",
+        "creator": "5xXKMb37AShmZVPcTy1DZ7RqvghLEYc6zwbVEHmTLhKU",
+        "buyPrice": 0.000031811121467287947,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252732428,
+        "executionTime": 64.954,
+        "success": false
+      }
+    ]
+  },
+  "H8MEjjEhXgRVx6rDX9431VzVGV1ZxeD94YNfTCXCY62J": {
+    "wallet": "H8MEjjEhXgRVx6rDX9431VzVGV1ZxeD94YNfTCXCY62J",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252578118,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "3hcrRYGhmFozCcVCCjKhGM8AkocRnWag89WtJZxXpump",
+        "creator": "H8MEjjEhXgRVx6rDX9431VzVGV1ZxeD94YNfTCXCY62J",
+        "buyPrice": 0.00003066015317744053,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252578118,
+        "executionTime": 64.138,
+        "success": false
+      }
+    ]
+  },
+  "2oE75hRK7fQRmKWdMwj2Vy2fMSsZjZmBRY2uymLGpMY6": {
+    "wallet": "2oE75hRK7fQRmKWdMwj2Vy2fMSsZjZmBRY2uymLGpMY6",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252598628,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "94En2ji51TKZqtSspfUeKkC8ksKxUAaB7FDLv1Eppump",
+        "creator": "2oE75hRK7fQRmKWdMwj2Vy2fMSsZjZmBRY2uymLGpMY6",
+        "buyPrice": 0.00003276460382965983,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252598628,
+        "executionTime": 64.702,
+        "success": false
+      }
+    ]
+  },
+  "Fa5ttGBCkqNnqu4avJDz2aqtrWhLDRNeNkTCReawcsjB": {
+    "wallet": "Fa5ttGBCkqNnqu4avJDz2aqtrWhLDRNeNkTCReawcsjB",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.016911589000000005,
+    "averageProfit": -0.016911589000000005,
+    "lastTradeTimestamp": 1742252598932,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "FC1Nt77kHv9pbUXDHGo1551ePn2AJ8XGPPVMkAyYpump",
+        "creator": "Fa5ttGBCkqNnqu4avJDz2aqtrWhLDRNeNkTCReawcsjB",
+        "buyPrice": 0.00002948944408517951,
+        "sellPrice": 0.000028315812521574388,
+        "profit": -0.016911589000000005,
+        "profitPercentage": -286739.7050814405,
+        "timestamp": 1742252598932,
+        "executionTime": 39.5,
+        "success": false
+      }
+    ]
+  },
+  "14RxJkDwbffchzKFG3BjDrXDMGegGAVGGnAXCP4RVPUP": {
+    "wallet": "14RxJkDwbffchzKFG3BjDrXDMGegGAVGGnAXCP4RVPUP",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252634253,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "8MTVHQuGpg9nd66ijKsm9tUsi9pKyLuEeZztZgeUpump",
+        "creator": "14RxJkDwbffchzKFG3BjDrXDMGegGAVGGnAXCP4RVPUP",
+        "buyPrice": 0.000030221491935068674,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252634253,
+        "executionTime": 64.869,
+        "success": false
+      }
+    ]
+  },
+  "8tnM4E8cRytWjaZvhFBw1wp5SkJM3PyAdg9Xph51474d": {
+    "wallet": "8tnM4E8cRytWjaZvhFBw1wp5SkJM3PyAdg9Xph51474d",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.006970352999999985,
+    "averageProfit": -0.006970352999999985,
+    "lastTradeTimestamp": 1742252676644,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "4pPZZYdFK2nGtAnnXiZEUnT21JY9NHSHEUCiipAFpump",
+        "creator": "8tnM4E8cRytWjaZvhFBw1wp5SkJM3PyAdg9Xph51474d",
+        "buyPrice": 0.00002820685756877859,
+        "sellPrice": 0.000028594604731805807,
+        "profit": -0.006970352999999985,
+        "profitPercentage": -123557.77283952537,
+        "timestamp": 1742252676644,
+        "executionTime": 39.733,
+        "success": false
+      }
+    ]
+  },
+  "3daihiagxgv1f8ESvqxyZqN3iizj2vpPBCn4dRQQ8qYN": {
+    "wallet": "3daihiagxgv1f8ESvqxyZqN3iizj2vpPBCn4dRQQ8qYN",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252687463,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "3mHcgiYRUWJtFao2H4zYudqUJxFfr2v9Mjh5FFWkpump",
+        "creator": "3daihiagxgv1f8ESvqxyZqN3iizj2vpPBCn4dRQQ8qYN",
+        "buyPrice": 0.00003120380994206023,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252687463,
+        "executionTime": 64.57,
+        "success": false
+      }
+    ]
+  },
+  "K9HzwdYrUcxnuBqMMJZ7inhhz6TXn74kiLbXBvNE3KT": {
+    "wallet": "K9HzwdYrUcxnuBqMMJZ7inhhz6TXn74kiLbXBvNE3KT",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252710023,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "2dV1CPPpn9LPEQ7vfVqf9aC21i8V8b6259qwBGffpump",
+        "creator": "K9HzwdYrUcxnuBqMMJZ7inhhz6TXn74kiLbXBvNE3KT",
+        "buyPrice": 0.00004891215823539235,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252710023,
+        "executionTime": 64.653,
+        "success": false
+      }
+    ]
+  },
+  "81Kt6RfXaLCP29zYuQjFpUXZcC8uiEQXnGASv8NHZdXf": {
+    "wallet": "81Kt6RfXaLCP29zYuQjFpUXZcC8uiEQXnGASv8NHZdXf",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252721646,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "6zBvKtYd1xPnGXAtNgYEiWi1uD6hJX6LkZoRUYudpump",
+        "creator": "81Kt6RfXaLCP29zYuQjFpUXZcC8uiEQXnGASv8NHZdXf",
+        "buyPrice": 0.000031811121468282045,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252721646,
+        "executionTime": 65.225,
+        "success": false
+      }
+    ]
+  },
+  "DdJheoS6u66asrLrAYByjz9CwKhacTVDushMYLv7Av8V": {
+    "wallet": "DdJheoS6u66asrLrAYByjz9CwKhacTVDushMYLv7Av8V",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.007036185,
+    "averageProfit": -0.007036185,
+    "lastTradeTimestamp": 1742252765729,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "Db8jaWjahGRqY2mCwTutkwuCz5TB2QcH19ozskg9pump",
+        "creator": "DdJheoS6u66asrLrAYByjz9CwKhacTVDushMYLv7Av8V",
+        "buyPrice": 0.00002938153142132449,
+        "sellPrice": 0.0000297674443895392,
+        "profit": -0.007036185,
+        "profitPercentage": -119738.22771697474,
+        "timestamp": 1742252765729,
+        "executionTime": 40.013,
+        "success": false
+      }
+    ]
+  },
+  "B9vGqVvExkkasv3MRJPRRPUzSQcEmQ1qsXMP9qKtNjuo": {
+    "wallet": "B9vGqVvExkkasv3MRJPRRPUzSQcEmQ1qsXMP9qKtNjuo",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252777399,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "DLVJjxZqc9bYES4TJEYpgXuuPxUzUyMBHDd6Dn3Mpump",
+        "creator": "B9vGqVvExkkasv3MRJPRRPUzSQcEmQ1qsXMP9qKtNjuo",
+        "buyPrice": 0.00006325445851554632,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252777399,
+        "executionTime": 65.221,
+        "success": false
+      }
+    ]
+  },
+  "5D9spHVE2s8EuD98HbUdd9TL2eg9rXhVbN35GWnuM81P": {
+    "wallet": "5D9spHVE2s8EuD98HbUdd9TL2eg9rXhVbN35GWnuM81P",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252798802,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "9zh8PM1vvbTfs9234PQ6RfWLenyb6D6wyPezyHHFpump",
+        "creator": "5D9spHVE2s8EuD98HbUdd9TL2eg9rXhVbN35GWnuM81P",
+        "buyPrice": 0.000043257843393568006,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252798802,
+        "executionTime": 64.436,
+        "success": false
+      }
+    ]
+  },
+  "F7TZ326GJUjFGdAaHW3AZbZ67BaYmDJc5NqMA4MsXurA": {
+    "wallet": "F7TZ326GJUjFGdAaHW3AZbZ67BaYmDJc5NqMA4MsXurA",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742252809722,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "JDyG17pCu8uH3HDFNKkZfMK8SLgKXt7gkFJpsbHDpump",
+        "creator": "F7TZ326GJUjFGdAaHW3AZbZ67BaYmDJc5NqMA4MsXurA",
+        "buyPrice": 0.00003472560602281242,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252809722,
+        "executionTime": 64.379,
+        "success": false
+      }
+    ]
+  },
+  "BfKHhnkVSzPCdY8fyW4RayqDr7FZXRVLRUHtr3kvAhe1": {
+    "wallet": "BfKHhnkVSzPCdY8fyW4RayqDr7FZXRVLRUHtr3kvAhe1",
+    "totalTrades": 2,
+    "successfulTrades": 0,
+    "failedTrades": 2,
+    "totalProfit": -0.050794113,
+    "averageProfit": -0.0253970565,
+    "lastTradeTimestamp": 1742335084472,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "J2XDQH9agEUcuzigmPFygcrF1SnjDBNSiEEYoHgDpump",
+        "creator": "BfKHhnkVSzPCdY8fyW4RayqDr7FZXRVLRUHtr3kvAhe1",
+        "buyPrice": 0.00003786423994201249,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742252823724,
+        "executionTime": 65.258,
+        "success": false
+      },
+      {
+        "token": "6BpQYxzfFBHbpWMUjTaKTNyTtVEhhQ3wvZGHsPR3pump",
+        "creator": "BfKHhnkVSzPCdY8fyW4RayqDr7FZXRVLRUHtr3kvAhe1",
+        "buyPrice": 0.000034329198731557485,
+        "sellPrice": 0.00003395193465777449,
+        "profit": -0.050794113,
+        "profitPercentage": -2959236.735887282,
+        "timestamp": 1742335084472,
+        "executionTime": 23.303,
+        "success": false
+      }
+    ]
+  },
+  "7XPDbKoReYJH1DtXh6kLinzfz3egYvRpMDVd9YKyQzQo": {
+    "wallet": "7XPDbKoReYJH1DtXh6kLinzfz3egYvRpMDVd9YKyQzQo",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.045126981000000004,
+    "averageProfit": -0.045126981000000004,
+    "lastTradeTimestamp": 1742333272005,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "FoCbH6W7v2Wz4khggHgTS3DpejpJ94qPDs31eRGypump",
+        "creator": "7XPDbKoReYJH1DtXh6kLinzfz3egYvRpMDVd9YKyQzQo",
+        "buyPrice": 0.000033047706447692036,
+        "sellPrice": 0.000028407971503734906,
+        "profit": -0.045126981000000004,
+        "profitPercentage": -2731020.4459378785,
+        "timestamp": 1742333272005,
+        "executionTime": 68.322,
+        "success": false
+      }
+    ]
+  },
+  "CNC7EAJ6usVUTSoeNfKkqZ5iNqcyKiR1LS6QcFicyUYz": {
+    "wallet": "CNC7EAJ6usVUTSoeNfKkqZ5iNqcyKiR1LS6QcFicyUYz",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742333656215,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "516vQvkeUpYWGZE3CHNUnvsKgVbnyATFzfVAFaYUpump",
+        "creator": "CNC7EAJ6usVUTSoeNfKkqZ5iNqcyKiR1LS6QcFicyUYz",
+        "buyPrice": 0.000028688061868646217,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742333656215,
+        "executionTime": 65.273,
+        "success": false
+      }
+    ]
+  },
+  "GmDEm9v4v9xTSpqKZMeqqbraHwZKokfPvnVJvfpWyXgB": {
+    "wallet": "GmDEm9v4v9xTSpqKZMeqqbraHwZKokfPvnVJvfpWyXgB",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742334448411,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "E9t3iGBWgmF1LR7UCgJLyYGr3LkR4KZEPLRWhEFipump",
+        "creator": "GmDEm9v4v9xTSpqKZMeqqbraHwZKokfPvnVJvfpWyXgB",
+        "buyPrice": 0.000032718916441287116,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742334448411,
+        "executionTime": 65.415,
+        "success": false
+      }
+    ]
+  },
+  "35BcHe3NfszqcmiBEuRSM6UQSHzLCTcEaL8b4ucWMBRL": {
+    "wallet": "35BcHe3NfszqcmiBEuRSM6UQSHzLCTcEaL8b4ucWMBRL",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742335462487,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "489rpEiAGVRsDhZWNhggh4T3HjX789RyimCzE7fqpump",
+        "creator": "35BcHe3NfszqcmiBEuRSM6UQSHzLCTcEaL8b4ucWMBRL",
+        "buyPrice": 0.000027958993479030754,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742335462487,
+        "executionTime": 64.691,
+        "success": false
+      }
+    ]
+  },
+  "2U9Pfpv5DqVzGNr89jgQauVYVVTs6tV7kvqrwRHt5Q8a": {
+    "wallet": "2U9Pfpv5DqVzGNr89jgQauVYVVTs6tV7kvqrwRHt5Q8a",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742337351467,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "5GmNBKzAFpndyTgwWJnfmEMLYUujkPrAWNgEBa1Cpump",
+        "creator": "2U9Pfpv5DqVzGNr89jgQauVYVVTs6tV7kvqrwRHt5Q8a",
+        "buyPrice": 0.00003288221472026296,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742337351467,
+        "executionTime": 62.852,
+        "success": false
+      }
+    ]
+  },
+  "5xGJyfJWTNCfiv6vjSvLuBD4zS62oZCXfnpUF3a7eHSD": {
+    "wallet": "5xGJyfJWTNCfiv6vjSvLuBD4zS62oZCXfnpUF3a7eHSD",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742338384693,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "7rZ4dNdm61eeiZobUxbAP17eGLLMiYnDY1qUonL3pump",
+        "creator": "5xGJyfJWTNCfiv6vjSvLuBD4zS62oZCXfnpUF3a7eHSD",
+        "buyPrice": 0.000030440308373346142,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742338384693,
+        "executionTime": 62.911,
+        "success": false
+      }
+    ]
+  },
+  "2A65T9He2i1NrFb8ZANaJ5FEHR4KtwJDjK8qN8ySiNSX": {
+    "wallet": "2A65T9He2i1NrFb8ZANaJ5FEHR4KtwJDjK8qN8ySiNSX",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742339291558,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "DGu8HsoNoWBUbf932ubp1GhNDNrHKcFYSgBkowTapump",
+        "creator": "2A65T9He2i1NrFb8ZANaJ5FEHR4KtwJDjK8qN8ySiNSX",
+        "buyPrice": 0.000033496107342298853,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742339291558,
+        "executionTime": 62.906,
+        "success": false
+      }
+    ]
+  },
+  "Rsms9Y666cAUR4hAEs5RqR3ZxKD2whVGs6PRxFmJR3W": {
+    "wallet": "Rsms9Y666cAUR4hAEs5RqR3ZxKD2whVGs6PRxFmJR3W",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742339914672,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "2dmXksiQ5GdugwigHobEJrnoXzF77szx1SzNH3Wjpump",
+        "creator": "Rsms9Y666cAUR4hAEs5RqR3ZxKD2whVGs6PRxFmJR3W",
+        "buyPrice": 0.00004723938446125362,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742339914672,
+        "executionTime": 62.734,
+        "success": false
+      }
+    ]
+  },
+  "DZuys2hm6CSPhSyeJRbC6Qv1YxysR9xmSehyAscia928": {
+    "wallet": "DZuys2hm6CSPhSyeJRbC6Qv1YxysR9xmSehyAscia928",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.050763315,
+    "averageProfit": -0.050763315,
+    "lastTradeTimestamp": 1742340771909,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "7q7nQZcnpmv1Fu1mbXdihVgFbkFpumM5Wq2dWA4jpump",
+        "creator": "DZuys2hm6CSPhSyeJRbC6Qv1YxysR9xmSehyAscia928",
+        "buyPrice": 0.00003445502504238914,
+        "sellPrice": 0.00003393136792114601,
+        "profit": -0.050763315,
+        "profitPercentage": -2946642.177014656,
+        "timestamp": 1742340771909,
+        "executionTime": 19.276,
+        "success": false
+      }
+    ]
+  },
+  "E7u2KNuz88y1q9sbS6WrCjmZXMVgUf5wDtzqMweAtacu": {
+    "wallet": "E7u2KNuz88y1q9sbS6WrCjmZXMVgUf5wDtzqMweAtacu",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742412725889,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "BnoDNM7x3ibqzEMUXKb8sQK7V9YcnRxtEszobZB4mqKR",
+        "creator": "E7u2KNuz88y1q9sbS6WrCjmZXMVgUf5wDtzqMweAtacu",
+        "buyPrice": 0.000035932901522211843,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742412725889,
+        "executionTime": 62.621,
+        "success": false
+      }
+    ]
+  },
+  "4R2FzMrGfYvfJ2DWS6WKWx2h91jKAu1CcVLVkiZWAVRh": {
+    "wallet": "4R2FzMrGfYvfJ2DWS6WKWx2h91jKAu1CcVLVkiZWAVRh",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.050823835000000005,
+    "averageProfit": -0.050823835000000005,
+    "lastTradeTimestamp": 1742412675449,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "JC9BN9WvrA4uRAx3zqRet1gRLTykVCELTrN4r1WYpump",
+        "creator": "4R2FzMrGfYvfJ2DWS6WKWx2h91jKAu1CcVLVkiZWAVRh",
+        "buyPrice": 0.000028239438230992183,
+        "sellPrice": 0.00002823912628493212,
+        "profit": -0.050823835000000005,
+        "profitPercentage": -3599493.34574382,
+        "timestamp": 1742412675449,
+        "executionTime": 12.499,
+        "success": false
+      }
+    ]
+  },
+  "9cpMEVDHfPiLY7qimBMtg9phiGSVgUoS2vP6wSEvf41c": {
+    "wallet": "9cpMEVDHfPiLY7qimBMtg9phiGSVgUoS2vP6wSEvf41c",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.048709378000000005,
+    "averageProfit": -0.048709378000000005,
+    "lastTradeTimestamp": 1742415639407,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "9g9oDeGEzjBR3UqiBZ3Hgm9U4fKazCLB9hsrqQ8Dpump",
+        "creator": "9cpMEVDHfPiLY7qimBMtg9phiGSVgUoS2vP6wSEvf41c",
+        "buyPrice": 0.00004800219854137122,
+        "sellPrice": 0.00003669056976911336,
+        "profit": -0.048709378000000005,
+        "profitPercentage": -2029464.4612170956,
+        "timestamp": 1742415639407,
+        "executionTime": 10.393,
+        "success": false
+      }
+    ]
+  },
+  "EezojciuxaidPpA7PinQAhHseqG71ADU9B4ydnh1vKfa": {
+    "wallet": "EezojciuxaidPpA7PinQAhHseqG71ADU9B4ydnh1vKfa",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742640086207,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "E32n5qf5s5sCPCCo5nNvRHXi7BPpUDREohAkKjfxpump",
+        "creator": "EezojciuxaidPpA7PinQAhHseqG71ADU9B4ydnh1vKfa",
+        "buyPrice": 0.00003140259772942318,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742640086207,
+        "executionTime": 64.651,
+        "success": false
+      }
+    ]
+  },
+  "AkwLvHsUjuGWM7jcTcZRBYz7bK4anbvnpcUzY6nbpJAk": {
+    "wallet": "AkwLvHsUjuGWM7jcTcZRBYz7bK4anbvnpcUzY6nbpJAk",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742640134772,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "8DG7Sh2FSjQp44T6CRcMDJa5B5URibBCi1pCiWBypump",
+        "creator": "AkwLvHsUjuGWM7jcTcZRBYz7bK4anbvnpcUzY6nbpJAk",
+        "buyPrice": 0.000030367345488545005,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742640134772,
+        "executionTime": 64.794,
+        "success": false
+      }
+    ]
+  },
+  "5aPaYbkd8BU28Wgec1roEHUSv4KPie5MspC9Qgh995K5": {
+    "wallet": "5aPaYbkd8BU28Wgec1roEHUSv4KPie5MspC9Qgh995K5",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742640163655,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "7SxaEEutjVdkhfnHycewQAiPTmRTQhv4KWHwFqhSpump",
+        "creator": "5aPaYbkd8BU28Wgec1roEHUSv4KPie5MspC9Qgh995K5",
+        "buyPrice": 0.000030434607020813894,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742640163655,
+        "executionTime": 64.769,
+        "success": false
+      }
+    ]
+  },
+  "FhwvSvfSn9DAqiauvwxH7kKMKdyGvKozSa9yp4uRpmNJ": {
+    "wallet": "FhwvSvfSn9DAqiauvwxH7kKMKdyGvKozSa9yp4uRpmNJ",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": 0,
+    "averageProfit": 0,
+    "lastTradeTimestamp": 1742640217276,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "8yHyF8Phnqjuxp3oQ1heQfH4Fuwz3k1BUE8rhGAEpump",
+        "creator": "FhwvSvfSn9DAqiauvwxH7kKMKdyGvKozSa9yp4uRpmNJ",
+        "buyPrice": 0.00003025772843134323,
+        "sellPrice": 0,
+        "profit": 0,
+        "profitPercentage": 0,
+        "timestamp": 1742640217276,
+        "executionTime": 65.165,
+        "success": false
+      }
+    ]
+  },
+  "6VT4aR8tiQbuvWpsyaRq6ctZMXVNL3jm1GszQVw8T4bm": {
+    "wallet": "6VT4aR8tiQbuvWpsyaRq6ctZMXVNL3jm1GszQVw8T4bm",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.011045469999999998,
+    "averageProfit": -0.011045469999999998,
+    "lastTradeTimestamp": 1742830126833,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "5c26d2XWiBpX4n3nn59gSsPkYDMXa1kB45s8u4Szpump",
+        "creator": "6VT4aR8tiQbuvWpsyaRq6ctZMXVNL3jm1GszQVw8T4bm",
+        "buyPrice": 0.000031682158234895645,
+        "sellPrice": 0.000030717702258539654,
+        "profit": -0.011045469999999998,
+        "profitPercentage": -232422.50771148957,
+        "timestamp": 1742830126833,
+        "executionTime": 17.974,
+        "success": false
+      }
+    ]
+  },
+  "Hc4DxwKjGko4rpGUfEi1fcM9MpWdiVeurAvbPWg7E4MS": {
+    "wallet": "Hc4DxwKjGko4rpGUfEi1fcM9MpWdiVeurAvbPWg7E4MS",
+    "totalTrades": 1,
+    "successfulTrades": 1,
+    "failedTrades": 0,
+    "totalProfit": 0.013145636999999998,
+    "averageProfit": 0.013145636999999998,
+    "lastTradeTimestamp": 1742830215202,
+    "successRate": 1,
+    "trades": [
+      {
+        "token": "29emGHwe9enJr4Yc2jEvBHs9zAY5V4yPWaZvAWrZpump",
+        "creator": "Hc4DxwKjGko4rpGUfEi1fcM9MpWdiVeurAvbPWg7E4MS",
+        "buyPrice": 0.00004485865175874499,
+        "sellPrice": 0.00004987950528703563,
+        "profit": 0.013145636999999998,
+        "profitPercentage": 195363.82963831595,
+        "timestamp": 1742830215202,
+        "executionTime": 18.133,
+        "success": true
+      }
+    ]
+  },
+  "5NDBvczvV1USpQ3duHAPDrn726mKHVsZWTPWbafwkc7w": {
+    "wallet": "5NDBvczvV1USpQ3duHAPDrn726mKHVsZWTPWbafwkc7w",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.00038324099999999944,
+    "averageProfit": -0.00038324099999999944,
+    "lastTradeTimestamp": 1742830253944,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "HbZnAzfW2W4YoqM6xws5gPqg4hyngxrtQYEMzvkZLWbc",
+        "creator": "5NDBvczvV1USpQ3duHAPDrn726mKHVsZWTPWbafwkc7w",
+        "buyPrice": 0.00003399467595187636,
+        "sellPrice": 0.000028054654819703163,
+        "profit": -0.00038324099999999944,
+        "profitPercentage": -7515.706293587937,
+        "timestamp": 1742830253944,
+        "executionTime": 25.847,
+        "success": false
+      }
+    ]
+  },
+  "FZt2R8haxvyTTmdbJyQvB2sq2aAe92XQW8zksC7vGtr7": {
+    "wallet": "FZt2R8haxvyTTmdbJyQvB2sq2aAe92XQW8zksC7vGtr7",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.009607078000000002,
+    "averageProfit": -0.009607078000000002,
+    "lastTradeTimestamp": 1742830289694,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "BaRUXUwhCRUzoViyjUJW4aqax8toSbMExbsz2TU1pump",
+        "creator": "FZt2R8haxvyTTmdbJyQvB2sq2aAe92XQW8zksC7vGtr7",
+        "buyPrice": 0.000033797534251715115,
+        "sellPrice": 0.000027974414556546335,
+        "profit": -0.009607078000000002,
+        "profitPercentage": -189502.5423738316,
+        "timestamp": 1742830289694,
+        "executionTime": 29.775,
+        "success": false
+      }
+    ]
+  },
+  "4iSQaoPLaRUwHxyxagtis7MrLXYgd4Y9jHDsDW44S4Am": {
+    "wallet": "4iSQaoPLaRUwHxyxagtis7MrLXYgd4Y9jHDsDW44S4Am",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0009083370000000021,
+    "averageProfit": -0.0009083370000000021,
+    "lastTradeTimestamp": 1743657947713,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "5Tihtk7GJEX9ZqDrvLuBM7fVapYPuLqvpnuvUQgxpump",
+        "creator": "4iSQaoPLaRUwHxyxagtis7MrLXYgd4Y9jHDsDW44S4Am",
+        "buyPrice": 0.00002795899347908895,
+        "sellPrice": 0.00002814384582331097,
+        "profit": -0.0009083370000000021,
+        "profitPercentage": -64976.37339336726,
+        "timestamp": 1743657947713,
+        "executionTime": 45.134,
+        "success": false
+      }
+    ]
+  },
+  "CBpjbCYxMa7SVbUSVbFyqAasRViWSKaKnf7UaSHY5XqA": {
+    "wallet": "CBpjbCYxMa7SVbUSVbFyqAasRViWSKaKnf7UaSHY5XqA",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0010943670000000058,
+    "averageProfit": -0.0010943670000000058,
+    "lastTradeTimestamp": 1743658516539,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "3SuXZ24yyP8FRCRgGSrqQsS9tVu72ikFyqS9Gx7Fpump",
+        "creator": "CBpjbCYxMa7SVbUSVbFyqAasRViWSKaKnf7UaSHY5XqA",
+        "buyPrice": 0.00002823985295877932,
+        "sellPrice": 0.00002810439102670855,
+        "profit": -0.0010943670000000058,
+        "profitPercentage": -77505.14859956341,
+        "timestamp": 1743658516539,
+        "executionTime": 46.596,
+        "success": false
+      }
+    ]
+  },
+  "AaA9c7q6HyYt2LkbpoLNZCkkA5uFqaBjNmvG9SfVgu47": {
+    "wallet": "AaA9c7q6HyYt2LkbpoLNZCkkA5uFqaBjNmvG9SfVgu47",
+    "totalTrades": 2,
+    "successfulTrades": 0,
+    "failedTrades": 2,
+    "totalProfit": -0.004918646000000006,
+    "averageProfit": -0.002459323000000003,
+    "lastTradeTimestamp": 1743660809702,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "2Ahp1udM1jDXWfYfPSRyU513DTAwr66H9kMS8ymrpump",
+        "creator": "AaA9c7q6HyYt2LkbpoLNZCkkA5uFqaBjNmvG9SfVgu47",
+        "buyPrice": 0.000030182320596458493,
+        "sellPrice": 0.000028046337983894282,
+        "profit": -0.0038625350000000003,
+        "profitPercentage": -255946.8538978556,
+        "timestamp": 1743660425674,
+        "executionTime": 47.494,
+        "success": false
+      },
+      {
+        "token": "FLd7BpwMzqUjnHKMD2JLQagjodDRLaaxXPmHHBihpump",
+        "creator": "AaA9c7q6HyYt2LkbpoLNZCkkA5uFqaBjNmvG9SfVgu47",
+        "buyPrice": 0.00002795899347716682,
+        "sellPrice": 0.00002805226778595836,
+        "profit": -0.0010561110000000054,
+        "profitPercentage": -75547.14019748215,
+        "timestamp": 1743660809702,
+        "executionTime": 46.221,
+        "success": false
+      }
+    ]
+  },
+  "6vAi4tKVVCMBE53s1rChQJyyFvywDvtjt3buxncpDGsf": {
+    "wallet": "6vAi4tKVVCMBE53s1rChQJyyFvywDvtjt3buxncpDGsf",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0010531780000000018,
+    "averageProfit": -0.0010531780000000018,
+    "lastTradeTimestamp": 1743661216465,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "Gwgv3h22gEQF8D2j22VMnxdPZZKq97TqMi1CRexFpump",
+        "creator": "6vAi4tKVVCMBE53s1rChQJyyFvywDvtjt3buxncpDGsf",
+        "buyPrice": 0.000027958993483910792,
+        "sellPrice": 0.000028052267792703047,
+        "profit": -0.0010531780000000018,
+        "profitPercentage": -75337.33291265015,
+        "timestamp": 1743661216465,
+        "executionTime": 47.661,
+        "success": false
+      }
+    ]
+  },
+  "7FZito8B47QXaiMBaiKCRQPpNJB6FHN49TU15vuMp9dd": {
+    "wallet": "7FZito8B47QXaiMBaiKCRQPpNJB6FHN49TU15vuMp9dd",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0010483690000000004,
+    "averageProfit": -0.0010483690000000004,
+    "lastTradeTimestamp": 1743661218343,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "4vRgmMTPc8S5vdJJLJ1Y5DNgKtJyRu7taC2tdYN6pump",
+        "creator": "7FZito8B47QXaiMBaiKCRQPpNJB6FHN49TU15vuMp9dd",
+        "buyPrice": 0.000027958993478098787,
+        "sellPrice": 0.000028052267786890307,
+        "profit": -0.0010483690000000004,
+        "profitPercentage": -74993.32912833382,
+        "timestamp": 1743661218343,
+        "executionTime": 45.379,
+        "success": false
+      }
+    ]
+  },
+  "SYNawk5PHK9n3uVsU7JwG9KHymAHgKeSUk4ZFnKY4uu": {
+    "wallet": "SYNawk5PHK9n3uVsU7JwG9KHymAHgKeSUk4ZFnKY4uu",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.002028789000000003,
+    "averageProfit": -0.002028789000000003,
+    "lastTradeTimestamp": 1743675495104,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "3pgMM7ipdE4JZWn9XQuWaCLT6WqpDEim8NTSEmyifqr8",
+        "creator": "SYNawk5PHK9n3uVsU7JwG9KHymAHgKeSUk4ZFnKY4uu",
+        "buyPrice": 0.00003166005729866542,
+        "sellPrice": 0.00003138408704992029,
+        "profit": -0.002028789000000003,
+        "profitPercentage": -64080.395713166436,
+        "timestamp": 1743675495104,
+        "executionTime": 44.979,
+        "success": false
+      }
+    ]
+  },
+  "EMKrphikgKACy9FNMPrQUWDJiUGhuYo6X8tZWm4jE7wN": {
+    "wallet": "EMKrphikgKACy9FNMPrQUWDJiUGhuYo6X8tZWm4jE7wN",
+    "totalTrades": 2,
+    "successfulTrades": 0,
+    "failedTrades": 2,
+    "totalProfit": -0.020731474,
+    "averageProfit": -0.010365737,
+    "lastTradeTimestamp": 1743699741884,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "MFR9qNwaP9rQfwsJLdMAAEMmuAq3FCYxqJwWHxApump",
+        "creator": "EMKrphikgKACy9FNMPrQUWDJiUGhuYo6X8tZWm4jE7wN",
+        "buyPrice": 0.000035537974004606876,
+        "sellPrice": 0.00002810876216742153,
+        "profit": -0.018650634,
+        "profitPercentage": -524808.5891891944,
+        "timestamp": 1743691805111,
+        "executionTime": 38.162,
+        "success": false
+      },
+      {
+        "token": "N2EtkuKW4E4aMbpw8scFEDwW85gSk2ydyCyEZ9Zpump",
+        "creator": "EMKrphikgKACy9FNMPrQUWDJiUGhuYo6X8tZWm4jE7wN",
+        "buyPrice": 0.000027958993479030754,
+        "sellPrice": 0.000028145697424355337,
+        "profit": -0.0020808400000000005,
+        "profitPercentage": -74424.7106592242,
+        "timestamp": 1743699741884,
+        "executionTime": 45.035,
+        "success": false
+      }
+    ]
+  },
+  "4nz9tcuvB1nYXbkXYbghuBx8n2qLhrgc97RyVtwMUoDH": {
+    "wallet": "4nz9tcuvB1nYXbkXYbghuBx8n2qLhrgc97RyVtwMUoDH",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.002008336999999985,
+    "averageProfit": -0.002008336999999985,
+    "lastTradeTimestamp": 1743692139188,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "13dmsZgrVYriwnnN3SWxTbLun6fSPPUgYAH6nhsXpump",
+        "creator": "4nz9tcuvB1nYXbkXYbghuBx8n2qLhrgc97RyVtwMUoDH",
+        "buyPrice": 0.000030363571222709952,
+        "sellPrice": 0.00003054851023404488,
+        "profit": -0.002008336999999985,
+        "profitPercentage": -66142.97722982866,
+        "timestamp": 1743692139188,
+        "executionTime": 47.941,
+        "success": false
+      }
+    ]
+  },
+  "EdFMzWvjjEkXSuPTbviCKahkSEVS5CYt6K38wCc82h6m": {
+    "wallet": "EdFMzWvjjEkXSuPTbviCKahkSEVS5CYt6K38wCc82h6m",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0021322440000000054,
+    "averageProfit": -0.0021322440000000054,
+    "lastTradeTimestamp": 1743692476418,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "5k1Sp53eZoQGxdX1SM51Ya3wLTQHTnVLishiXqFJpump",
+        "creator": "EdFMzWvjjEkXSuPTbviCKahkSEVS5CYt6K38wCc82h6m",
+        "buyPrice": 0.00003044884494614345,
+        "sellPrice": 0.000030643671417261955,
+        "profit": -0.0021322440000000054,
+        "profitPercentage": -70027.08982135194,
+        "timestamp": 1743692476418,
+        "executionTime": 46.765,
+        "success": false
+      }
+    ]
+  },
+  "F8zt1xXVwcj9sCbqDuUuJLTMdKCgmzEWUursXeFPbKzg": {
+    "wallet": "F8zt1xXVwcj9sCbqDuUuJLTMdKCgmzEWUursXeFPbKzg",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.002163914000000003,
+    "averageProfit": -0.002163914000000003,
+    "lastTradeTimestamp": 1743692866756,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "4S3hv3T9qSw6Tf9tQKBtAbJhmCcy6Uio2JuDyTyqpump",
+        "creator": "F8zt1xXVwcj9sCbqDuUuJLTMdKCgmzEWUursXeFPbKzg",
+        "buyPrice": 0.000039426856007432883,
+        "sellPrice": 0.000039629487502207246,
+        "profit": -0.002163914000000003,
+        "profitPercentage": -54884.264664472736,
+        "timestamp": 1743692866756,
+        "executionTime": 47.867,
+        "success": false
+      }
+    ]
+  },
+  "3rdGPmhZLmnsj1CEUPv9DTqJd54qVjFjGFxkHQ8TVyGE": {
+    "wallet": "3rdGPmhZLmnsj1CEUPv9DTqJd54qVjFjGFxkHQ8TVyGE",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.004914133000000001,
+    "averageProfit": -0.004914133000000001,
+    "lastTradeTimestamp": 1743692937063,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "9HS5A1zHqd75Z3cpA64cC1RoKWw8RzVSGPyM9hN4pump",
+        "creator": "3rdGPmhZLmnsj1CEUPv9DTqJd54qVjFjGFxkHQ8TVyGE",
+        "buyPrice": 0.000029786770192025736,
+        "sellPrice": 0.000028127081929947527,
+        "profit": -0.004914133000000001,
+        "profitPercentage": -164977.0340429716,
+        "timestamp": 1743692937063,
+        "executionTime": 103.04,
+        "success": false
+      }
+    ]
+  },
+  "9gYqkeqv63rQYnxzhZX9mG8qVRpwUJa3J5Rx4gmEtpBJ": {
+    "wallet": "9gYqkeqv63rQYnxzhZX9mG8qVRpwUJa3J5Rx4gmEtpBJ",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0020853859999999946,
+    "averageProfit": -0.0020853859999999946,
+    "lastTradeTimestamp": 1743693215947,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "HtJe48DDYberWcqvCzQPR4ZosjQJboKzepuNNziDpump",
+        "creator": "9gYqkeqv63rQYnxzhZX9mG8qVRpwUJa3J5Rx4gmEtpBJ",
+        "buyPrice": 0.000027958993477427392,
+        "sellPrice": 0.000028145697422753743,
+        "profit": -0.0020853859999999946,
+        "profitPercentage": -74587.30593015175,
+        "timestamp": 1743693215947,
+        "executionTime": 46.748,
+        "success": false
+      }
+    ]
+  },
+  "C4udGwTg6oqcrr8SmSLmkcXDbaFEcopsiaT21KUE4psU": {
+    "wallet": "C4udGwTg6oqcrr8SmSLmkcXDbaFEcopsiaT21KUE4psU",
+    "totalTrades": 3,
+    "successfulTrades": 0,
+    "failedTrades": 3,
+    "totalProfit": -0.016487845999999987,
+    "averageProfit": -0.0054959486666666625,
+    "lastTradeTimestamp": 1744288997498,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "BmrHiChdH9WSg4UoGfrUxS5FkaquDqaHvEJuDaZKpump",
+        "creator": "C4udGwTg6oqcrr8SmSLmkcXDbaFEcopsiaT21KUE4psU",
+        "buyPrice": 0.000027959209511449,
+        "sellPrice": 0.000028145914176875068,
+        "profit": -0.002116492999999997,
+        "profitPercentage": -75699.31471536473,
+        "timestamp": 1743693563746,
+        "executionTime": 45.734,
+        "success": false
+      },
+      {
+        "token": "9SNCCXbYWP8QgvvXuLRSdMoZFXPhVmsrSq6tDcfipump",
+        "creator": "C4udGwTg6oqcrr8SmSLmkcXDbaFEcopsiaT21KUE4psU",
+        "buyPrice": 0.00003165530200353676,
+        "sellPrice": 0.00002812690175220173,
+        "profit": -0.012191815999999994,
+        "profitPercentage": -385142.93746551004,
+        "timestamp": 1743699412028,
+        "executionTime": 46.372,
+        "success": false
+      },
+      {
+        "token": "CJoZCh7HkGhWXJM9X1Zs2nys2XgDcJrAuocD9yHYpump",
+        "creator": "C4udGwTg6oqcrr8SmSLmkcXDbaFEcopsiaT21KUE4psU",
+        "buyPrice": 0.000029518760918410794,
+        "sellPrice": 0.000028145697426219246,
+        "profit": -0.0021795369999999953,
+        "profitPercentage": -73835.65340104171,
+        "timestamp": 1744288997498,
+        "executionTime": 148.571,
+        "success": false
+      }
+    ]
+  },
+  "AcSdHm4pJp8tdH2qSLgr7ZCDYoxDQtwDRKybHixQZ1ZP": {
+    "wallet": "AcSdHm4pJp8tdH2qSLgr7ZCDYoxDQtwDRKybHixQZ1ZP",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.005852718999999992,
+    "averageProfit": -0.005852718999999992,
+    "lastTradeTimestamp": 1743693911955,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "6cdz5bZb68whrL2YsdX4Fko4YrNG9L7YpQBJzqy2pump",
+        "creator": "AcSdHm4pJp8tdH2qSLgr7ZCDYoxDQtwDRKybHixQZ1ZP",
+        "buyPrice": 0.000029348147769868865,
+        "sellPrice": 0.00002856822948628965,
+        "profit": -0.005852718999999992,
+        "profitPercentage": -199423.79484707574,
+        "timestamp": 1743693911955,
+        "executionTime": 45.746,
+        "success": false
+      }
+    ]
+  },
+  "4PkTnSMTGUsRZvUZYjzyDL37Jmt3MjacggkQUzMCdKmh": {
+    "wallet": "4PkTnSMTGUsRZvUZYjzyDL37Jmt3MjacggkQUzMCdKmh",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.007984485999999999,
+    "averageProfit": -0.007984485999999999,
+    "lastTradeTimestamp": 1743696203136,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "4CvHL6Hc9FETzoZvAUnBp6Miwov1ZW9YdoFwGc99pump",
+        "creator": "4PkTnSMTGUsRZvUZYjzyDL37Jmt3MjacggkQUzMCdKmh",
+        "buyPrice": 0.000029853991923920487,
+        "sellPrice": 0.00002812509929853314,
+        "profit": -0.007984485999999999,
+        "profitPercentage": -267451.2011776366,
+        "timestamp": 1743696203136,
+        "executionTime": 45.51,
+        "success": false
+      }
+    ]
+  },
+  "BFqBDiow1JRyKYK9dwv9MyS9VX8Gs5i5sdos9yxD2uhD": {
+    "wallet": "BFqBDiow1JRyKYK9dwv9MyS9VX8Gs5i5sdos9yxD2uhD",
+    "totalTrades": 1,
+    "successfulTrades": 1,
+    "failedTrades": 0,
+    "totalProfit": 0.047411865,
+    "averageProfit": 0.047411865,
+    "lastTradeTimestamp": 1743696498171,
+    "successRate": 1,
+    "trades": [
+      {
+        "token": "AWe2fcgXyxCmWBbBPjYyD6RvTa3xgULESkTbMcB3pump",
+        "creator": "BFqBDiow1JRyKYK9dwv9MyS9VX8Gs5i5sdos9yxD2uhD",
+        "buyPrice": 0.000030697245364322726,
+        "sellPrice": 0.00003871872094344854,
+        "profit": 0.047411865,
+        "profitPercentage": 1544499.0075592746,
+        "timestamp": 1743696498171,
+        "executionTime": 17.649,
+        "success": true
+      }
+    ]
+  },
+  "9wpVmJnzkTRAXsA1uS56dH46WWij4iWS5hVXrom3xfsw": {
+    "wallet": "9wpVmJnzkTRAXsA1uS56dH46WWij4iWS5hVXrom3xfsw",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.009052291000000004,
+    "averageProfit": -0.009052291000000004,
+    "lastTradeTimestamp": 1743696872040,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "bGjSyntvUN5MraFL9CBkb99ax1Dn7dqu8iMKiNrpump",
+        "creator": "9wpVmJnzkTRAXsA1uS56dH46WWij4iWS5hVXrom3xfsw",
+        "buyPrice": 0.0000713548486610231,
+        "sellPrice": 0.00007045349616134017,
+        "profit": -0.009052291000000004,
+        "profitPercentage": -126863.01169250086,
+        "timestamp": 1743696872040,
+        "executionTime": 23.881,
+        "success": false
+      }
+    ]
+  },
+  "CxnY8KvaMjBBGEf8Kb83g8KAjUzGY8uucTWV7Y51iHSz": {
+    "wallet": "CxnY8KvaMjBBGEf8Kb83g8KAjUzGY8uucTWV7Y51iHSz",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0021133429999999898,
+    "averageProfit": -0.0021133429999999898,
+    "lastTradeTimestamp": 1743697281121,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "AtN62nBDv7hAxLccMGEcxVE6o1A8sa83sux11XzUpump",
+        "creator": "CxnY8KvaMjBBGEf8Kb83g8KAjUzGY8uucTWV7Y51iHSz",
+        "buyPrice": 0.000027958993479030754,
+        "sellPrice": 0.000028145697424355337,
+        "profit": -0.0021133429999999898,
+        "profitPercentage": -75587.23462577423,
+        "timestamp": 1743697281121,
+        "executionTime": 44.902,
+        "success": false
+      }
+    ]
+  },
+  "g1F4vGRafkkvNr7nmhFKobp61TxiXk9n3mbif5JM8Mk": {
+    "wallet": "g1F4vGRafkkvNr7nmhFKobp61TxiXk9n3mbif5JM8Mk",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0020706479999999944,
+    "averageProfit": -0.0020706479999999944,
+    "lastTradeTimestamp": 1743697675078,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "6wefMNtFuz3ZUZGaAjEm1LD1T3pKRT7kkGZoZaGpump",
+        "creator": "g1F4vGRafkkvNr7nmhFKobp61TxiXk9n3mbif5JM8Mk",
+        "buyPrice": 0.00002795899349580615,
+        "sellPrice": 0.000028145697441130567,
+        "profit": -0.0020706479999999944,
+        "profitPercentage": -74060.17674815768,
+        "timestamp": 1743697675078,
+        "executionTime": 47.923,
+        "success": false
+      }
+    ]
+  },
+  "5Z9p9SRE3CGyp4ARk1YJ9wyqNmUnJPsDNLqjjmy8TehT": {
+    "wallet": "5Z9p9SRE3CGyp4ARk1YJ9wyqNmUnJPsDNLqjjmy8TehT",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.010126693000000006,
+    "averageProfit": -0.010126693000000006,
+    "lastTradeTimestamp": 1743697679160,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "Hnk68yXv19onWdKBmw9e1wHxhfmauR1srYda1c2hpump",
+        "creator": "5Z9p9SRE3CGyp4ARk1YJ9wyqNmUnJPsDNLqjjmy8TehT",
+        "buyPrice": 0.00004497702429459156,
+        "sellPrice": 0.000036247601531910444,
+        "profit": -0.010126693000000006,
+        "profitPercentage": -225152.57865153454,
+        "timestamp": 1743697679160,
+        "executionTime": 26.765,
+        "success": false
+      }
+    ]
+  },
+  "HN5cDMaRKiACGWgwWvBhFsgtq7VUjmqiLBKvbFKxo3gD": {
+    "wallet": "HN5cDMaRKiACGWgwWvBhFsgtq7VUjmqiLBKvbFKxo3gD",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.002080473999999999,
+    "averageProfit": -0.002080473999999999,
+    "lastTradeTimestamp": 1743698063864,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "E47bsxGh8ZYsb8yTaEFHbcKcVedvW1NE5tW3zYvNpump",
+        "creator": "HN5cDMaRKiACGWgwWvBhFsgtq7VUjmqiLBKvbFKxo3gD",
+        "buyPrice": 0.00002797373447112779,
+        "sellPrice": 0.00002815993744887919,
+        "profit": -0.002080473999999999,
+        "profitPercentage": -74372.4082369944,
+        "timestamp": 1743698063864,
+        "executionTime": 48.587,
+        "success": false
+      }
+    ]
+  },
+  "AeP56Ri1gEt35k6vUQptAxM6QytiytocmNUN9HG1JQhx": {
+    "wallet": "AeP56Ri1gEt35k6vUQptAxM6QytiytocmNUN9HG1JQhx",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0014217079999999938,
+    "averageProfit": -0.0014217079999999938,
+    "lastTradeTimestamp": 1743698383148,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "A8kPucTdQf1etsFPQU6upRZa4nqoZZcPGCPApArNpump",
+        "creator": "AeP56Ri1gEt35k6vUQptAxM6QytiytocmNUN9HG1JQhx",
+        "buyPrice": 0.00003215001242621927,
+        "sellPrice": 0.00002825057544564289,
+        "profit": -0.0014217079999999938,
+        "profitPercentage": -44221.07155518701,
+        "timestamp": 1743698383148,
+        "executionTime": 45.467,
+        "success": false
+      }
+    ]
+  },
+  "icon1BmskSeAaHApQiA2J8BdNGRV1xY5vkQCkkt2c3j": {
+    "wallet": "icon1BmskSeAaHApQiA2J8BdNGRV1xY5vkQCkkt2c3j",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0021054679999999992,
+    "averageProfit": -0.0021054679999999992,
+    "lastTradeTimestamp": 1743698731769,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "dAx54A2gnSho2pqudYQcVoHBaDNdJj7peZzcWcJpump",
+        "creator": "icon1BmskSeAaHApQiA2J8BdNGRV1xY5vkQCkkt2c3j",
+        "buyPrice": 0.000027958993478098787,
+        "sellPrice": 0.000028145697423423394,
+        "profit": -0.0021054679999999992,
+        "profitPercentage": -75305.57212831294,
+        "timestamp": 1743698731769,
+        "executionTime": 45.323,
+        "success": false
+      }
+    ]
+  },
+  "DZCxWwAGwmoEsi11xQQDaBjaEuAm3P8C54QAyrPjBuiR": {
+    "wallet": "DZCxWwAGwmoEsi11xQQDaBjaEuAm3P8C54QAyrPjBuiR",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0019893390000000066,
+    "averageProfit": -0.0019893390000000066,
+    "lastTradeTimestamp": 1743699088101,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "58p7s8CDRoiiGPN46bEbGWD998ZGbSYdWHs77krdpump",
+        "creator": "DZCxWwAGwmoEsi11xQQDaBjaEuAm3P8C54QAyrPjBuiR",
+        "buyPrice": 0.000029853991924883493,
+        "sellPrice": 0.000028133809602600387,
+        "profit": -0.0019893390000000066,
+        "profitPercentage": -66635.61124440044,
+        "timestamp": 1743699088101,
+        "executionTime": 46.532,
+        "success": false
+      }
+    ]
+  },
+  "GZVSEAajExLJEvACHHQcujBw7nJq98GWUEZtood9LM9b": {
+    "wallet": "GZVSEAajExLJEvACHHQcujBw7nJq98GWUEZtood9LM9b",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.002327339999999997,
+    "averageProfit": -0.002327339999999997,
+    "lastTradeTimestamp": 1743700059892,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "5VdH5nRYdiZFRneYJzy7xVsXLZkGpJYVKb4GWWJwpump",
+        "creator": "GZVSEAajExLJEvACHHQcujBw7nJq98GWUEZtood9LM9b",
+        "buyPrice": 0.00002808588955262864,
+        "sellPrice": 0.000028144851074544674,
+        "profit": -0.002327339999999997,
+        "profitPercentage": -82865.09834908093,
+        "timestamp": 1743700059892,
+        "executionTime": 46.182,
+        "success": false
+      }
+    ]
+  },
+  "F467kez6mb6gboyczXTdMq32AWaC7CRZCtJU751QcJ9h": {
+    "wallet": "F467kez6mb6gboyczXTdMq32AWaC7CRZCtJU751QcJ9h",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.002077354999999989,
+    "averageProfit": -0.002077354999999989,
+    "lastTradeTimestamp": 1743769114508,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "G3ydUrSFXT8rPetbCLJm2PBWrVt2bZPb7Mqszo8ppump",
+        "creator": "F467kez6mb6gboyczXTdMq32AWaC7CRZCtJU751QcJ9h",
+        "buyPrice": 0.000032057598850267614,
+        "sellPrice": 0.00003205759885226353,
+        "profit": -0.002077354999999989,
+        "profitPercentage": -64800.70480957582,
+        "timestamp": 1743769114508,
+        "executionTime": 15.444,
+        "success": false
+      }
+    ]
+  },
+  "DuS2BuAf7Du99B1Qwf7K8ccLwavxqVzhCd7ttgF5YPHP": {
+    "wallet": "DuS2BuAf7Du99B1Qwf7K8ccLwavxqVzhCd7ttgF5YPHP",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0020738509999999877,
+    "averageProfit": -0.0020738509999999877,
+    "lastTradeTimestamp": 1743769457511,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "BzF4kUhVEzTsaj5f2piq4W8Ciu9jNA3j2HCC5c5Mpump",
+        "creator": "DuS2BuAf7Du99B1Qwf7K8ccLwavxqVzhCd7ttgF5YPHP",
+        "buyPrice": 0.000027958993478098787,
+        "sellPrice": 0.000027958993479030754,
+        "profit": -0.0020738509999999877,
+        "profitPercentage": -74174.73742838792,
+        "timestamp": 1743769457511,
+        "executionTime": 14.409,
+        "success": false
+      }
+    ]
+  },
+  "4zdyqjKL2TvJo5JTisEbiMg1zzARtMX4F4xmD1TtXnUa": {
+    "wallet": "4zdyqjKL2TvJo5JTisEbiMg1zzARtMX4F4xmD1TtXnUa",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.00042356899999999864,
+    "averageProfit": -0.00042356899999999864,
+    "lastTradeTimestamp": 1743774364975,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "BtXuJBQykv27U7ppRVodx4Ud4exp2gVUi3YwRde48iNB",
+        "creator": "4zdyqjKL2TvJo5JTisEbiMg1zzARtMX4F4xmD1TtXnUa",
+        "buyPrice": 0.00002811345648194991,
+        "sellPrice": 0.00002822797199166152,
+        "profit": -0.00042356899999999864,
+        "profitPercentage": -15066.414913155511,
+        "timestamp": 1743774364975,
+        "executionTime": 16.938,
+        "success": false
+      }
+    ]
+  },
+  "4rRE1JwNUpfBHN1nfQ3KqDXLUYZfJUXZSxqYZsQwjkZP": {
+    "wallet": "4rRE1JwNUpfBHN1nfQ3KqDXLUYZfJUXZSxqYZsQwjkZP",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0018808099999999967,
+    "averageProfit": -0.0018808099999999967,
+    "lastTradeTimestamp": 1743775739791,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "8YpcxFgPrMiPoEkeCyDwME3uhbc5GdAdXa1QzEbXpump",
+        "creator": "4rRE1JwNUpfBHN1nfQ3KqDXLUYZfJUXZSxqYZsQwjkZP",
+        "buyPrice": 0.000031683433091835305,
+        "sellPrice": 0.00003187954953935407,
+        "profit": -0.0018808099999999967,
+        "profitPercentage": -74203.21191789795,
+        "timestamp": 1743775739791,
+        "executionTime": 43.282,
+        "success": false
+      }
+    ]
+  },
+  "7ScnDBtkEu9Tm3Wg6pBbtckK9ct4DsqaXvJRxGGw8imK": {
+    "wallet": "7ScnDBtkEu9Tm3Wg6pBbtckK9ct4DsqaXvJRxGGw8imK",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0016843779999999864,
+    "averageProfit": -0.0016843779999999864,
+    "lastTradeTimestamp": 1743775814290,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "EYsxbvbvdQ1vYui1Vy5ybEvKbx8SPqNPUFMW96tRpump",
+        "creator": "7ScnDBtkEu9Tm3Wg6pBbtckK9ct4DsqaXvJRxGGw8imK",
+        "buyPrice": 0.000031811121468282045,
+        "sellPrice": 0.00002812138123847339,
+        "profit": -0.0016843779999999864,
+        "profitPercentage": -66186.6794636363,
+        "timestamp": 1743775814290,
+        "executionTime": 99.875,
+        "success": false
+      }
+    ]
+  },
+  "AQ7JBcU68PzCu2rnAfM6Low3rtGs7Yvu2KV2fr2vctAn": {
+    "wallet": "AQ7JBcU68PzCu2rnAfM6Low3rtGs7Yvu2KV2fr2vctAn",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.004035660000000003,
+    "averageProfit": -0.004035660000000003,
+    "lastTradeTimestamp": 1744029311528,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "3VGAPPouk9WXEyVMjBiyt3ZTavzNeCdTtM91djrdpump",
+        "creator": "AQ7JBcU68PzCu2rnAfM6Low3rtGs7Yvu2KV2fr2vctAn",
+        "buyPrice": 0.00004196227263256454,
+        "sellPrice": 0.00003822373127540979,
+        "profit": -0.004035660000000003,
+        "profitPercentage": -160289.22119866934,
+        "timestamp": 1744029311528,
+        "executionTime": 53.631,
+        "success": false
+      }
+    ]
+  },
+  "EahaqbL2JMkEFqyR9ZGne2CjK7RhduJzEnxM3Pb6F9Xe": {
+    "wallet": "EahaqbL2JMkEFqyR9ZGne2CjK7RhduJzEnxM3Pb6F9Xe",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.00208382,
+    "averageProfit": -0.00208382,
+    "lastTradeTimestamp": 1744287468515,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "4EwwvxKnXFDCc5bYhFg5K23PQ9qdt9r64wa2Tbnqpump",
+        "creator": "EahaqbL2JMkEFqyR9ZGne2CjK7RhduJzEnxM3Pb6F9Xe",
+        "buyPrice": 0.00003570309281264767,
+        "sellPrice": 0.000032559550139412735,
+        "profit": -0.00208382,
+        "profitPercentage": -58365.25174261137,
+        "timestamp": 1744287468515,
+        "executionTime": 89.084,
+        "success": false
+      }
+    ]
+  },
+  "J2MQ22RSnMNWhVjR3peczQjim5C5AoiMaR2KEVc8TKjc": {
+    "wallet": "J2MQ22RSnMNWhVjR3peczQjim5C5AoiMaR2KEVc8TKjc",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0021117689999999856,
+    "averageProfit": -0.0021117689999999856,
+    "lastTradeTimestamp": 1744287789933,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "DKqDNtqXWzagj7MLt7ua1PKCwpcnRyLt1btdJm8fpump",
+        "creator": "J2MQ22RSnMNWhVjR3peczQjim5C5AoiMaR2KEVc8TKjc",
+        "buyPrice": 0.000028253304323770067,
+        "sellPrice": 0.000028440986736916922,
+        "profit": -0.0021117689999999856,
+        "profitPercentage": -74744.14234172646,
+        "timestamp": 1744287789933,
+        "executionTime": 45.141,
+        "success": false
+      }
+    ]
+  },
+  "82bPQsy1GcyXWJLmDHKP4wZ3XZkMFRZESNJyKrEo14ga": {
+    "wallet": "82bPQsy1GcyXWJLmDHKP4wZ3XZkMFRZESNJyKrEo14ga",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.0021491089999999824,
+    "averageProfit": -0.0021491089999999824,
+    "lastTradeTimestamp": 1744288153054,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "9pueS7GQ6u1G6FfiAupXCnNPxbRrKB2JVBjearXipump",
+        "creator": "82bPQsy1GcyXWJLmDHKP4wZ3XZkMFRZESNJyKrEo14ga",
+        "buyPrice": 0.000030989764997148044,
+        "sellPrice": 0.00003118631163723896,
+        "profit": -0.0021491089999999824,
+        "profitPercentage": -69348.99313362855,
+        "timestamp": 1744288153054,
+        "executionTime": 46.901,
+        "success": false
+      }
+    ]
+  },
+  "AQNWwWeg9dF1ho3zCZu2ksyGFCef31bJNMWvPds4mPuf": {
+    "wallet": "AQNWwWeg9dF1ho3zCZu2ksyGFCef31bJNMWvPds4mPuf",
+    "totalTrades": 1,
+    "successfulTrades": 0,
+    "failedTrades": 1,
+    "totalProfit": -0.00462186299999999,
+    "averageProfit": -0.00462186299999999,
+    "lastTradeTimestamp": 1744288542940,
+    "successRate": 0,
+    "trades": [
+      {
+        "token": "DAEamCP1DkpUrk4B4Z1TFTzCstGxBJ6EVSt4WXr3pump",
+        "creator": "AQNWwWeg9dF1ho3zCZu2ksyGFCef31bJNMWvPds4mPuf",
+        "buyPrice": 0.00003158357554469485,
+        "sellPrice": 0.00003054784077953237,
+        "profit": -0.00462186299999999,
+        "profitPercentage": -146337.5479277023,
+        "timestamp": 1744288542940,
+        "executionTime": 46.446,
+        "success": false
+      }
+    ]
+  },
+  "BsKTwiLxL1iMeAc1LTXXwjASPWygmrYu445T8USgJkJ": {
+    "wallet": "BsKTwiLxL1iMeAc1LTXXwjASPWygmrYu445T8USgJkJ",
+    "totalTrades": 1,
+    "successfulTrades": 1,
+    "failedTrades": 0,
+    "totalProfit": 0.01307409200000001,
+    "averageProfit": 0.01307409200000001,
+    "lastTradeTimestamp": 1744289297879,
+    "successRate": 1,
+    "trades": [
+      {
+        "token": "GbHz3KhJbTk4Xuf98qLzt7gmBrb1tKVtCBFPQx3tpump",
+        "creator": "BsKTwiLxL1iMeAc1LTXXwjASPWygmrYu445T8USgJkJ",
+        "buyPrice": 0.00006296601398563111,
+        "sellPrice": 0.000028131043764485053,
+        "profit": 0.01307409200000001,
+        "profitPercentage": 207637.28196267158,
+        "timestamp": 1744289297879,
+        "executionTime": 43.841,
+        "success": true
+      }
+    ]
+  }
+}

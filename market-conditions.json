@@ -1,0 +1,702 @@
+[
+  {
+    "timestamp": 1742252329470,
+    "volatilityIndex": 100,
+    "averageSlippage": 62.433050651167946,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252341080,
+    "volatilityIndex": 100,
+    "averageSlippage": 63.53796092613359,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252343820,
+    "volatilityIndex": 100,
+    "averageSlippage": 61.79965425416092,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252343911,
+    "volatilityIndex": 100,
+    "averageSlippage": 60.11402751923388,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252380272,
+    "volatilityIndex": 100,
+    "averageSlippage": 61.19202677547081,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252391841,
+    "volatilityIndex": 100,
+    "averageSlippage": 62.21328922874789,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252394420,
+    "volatilityIndex": 100,
+    "averageSlippage": 61.762108544357645,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252400926,
+    "volatilityIndex": 100,
+    "averageSlippage": 60.23241530004212,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252412819,
+    "volatilityIndex": 100,
+    "averageSlippage": 61.202356390285,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252452034,
+    "volatilityIndex": 100,
+    "averageSlippage": 60.03131498051179,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252456429,
+    "volatilityIndex": 100,
+    "averageSlippage": 60.897743626206726,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252462993,
+    "volatilityIndex": 100,
+    "averageSlippage": 61.82874973034467,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252465555,
+    "volatilityIndex": 100,
+    "averageSlippage": 59.576615474700645,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252493888,
+    "volatilityIndex": 100,
+    "averageSlippage": 57.48503679715598,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252503730,
+    "volatilityIndex": 100,
+    "averageSlippage": 58.28075582277993,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252533343,
+    "volatilityIndex": 100,
+    "averageSlippage": 54.85775254503962,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252540540,
+    "volatilityIndex": 100,
+    "averageSlippage": 54.85775254503962,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252544898,
+    "volatilityIndex": 100,
+    "averageSlippage": 53.9683494598393,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252578118,
+    "volatilityIndex": 100,
+    "averageSlippage": 57.282737225445466,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252598628,
+    "volatilityIndex": 100,
+    "averageSlippage": 58.324621683361435,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252599256,
+    "volatilityIndex": 100,
+    "averageSlippage": 57.030698218884446,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252634254,
+    "volatilityIndex": 100,
+    "averageSlippage": 59.490386987010204,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252645113,
+    "volatilityIndex": 100,
+    "averageSlippage": 60.47842632879045,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252672846,
+    "volatilityIndex": 100,
+    "averageSlippage": 60.33640144507376,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252676818,
+    "volatilityIndex": 100,
+    "averageSlippage": 58.862357800353834,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252687463,
+    "volatilityIndex": 100,
+    "averageSlippage": 59.86571492717447,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252710023,
+    "volatilityIndex": 100,
+    "averageSlippage": 61.18828304290228,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252721558,
+    "volatilityIndex": 100,
+    "averageSlippage": 59.791701393314355,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252721646,
+    "volatilityIndex": 100,
+    "averageSlippage": 60.749041836330676,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252732429,
+    "volatilityIndex": 100,
+    "averageSlippage": 62.86636925364777,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252754421,
+    "volatilityIndex": 100,
+    "averageSlippage": 64.19918412881938,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252765902,
+    "volatilityIndex": 100,
+    "averageSlippage": 62.70190484558892,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252766101,
+    "volatilityIndex": 100,
+    "averageSlippage": 63.569302407319405,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252777399,
+    "volatilityIndex": 100,
+    "averageSlippage": 63.569302407319405,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252798802,
+    "volatilityIndex": 100,
+    "averageSlippage": 62.749596580717494,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252809722,
+    "volatilityIndex": 100,
+    "averageSlippage": 64.99870386178883,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252819736,
+    "volatilityIndex": 100,
+    "averageSlippage": 62.83338853100503,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742252823724,
+    "volatilityIndex": 100,
+    "averageSlippage": 63.69772833260956,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742333492494,
+    "volatilityIndex": 0,
+    "averageSlippage": 14.039506648671399,
+    "recommendedPriorityFee": 1.2000000000000002,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742333656216,
+    "volatilityIndex": 100,
+    "averageSlippage": 57.019753324335696,
+    "recommendedPriorityFee": 0.75,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742334448412,
+    "volatilityIndex": 0,
+    "averageSlippage": 100,
+    "recommendedPriorityFee": 0.4,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742335306348,
+    "volatilityIndex": 0,
+    "averageSlippage": 1.0989597419184494,
+    "recommendedPriorityFee": 0.4,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742335462487,
+    "volatilityIndex": 100,
+    "averageSlippage": 50.549479870959225,
+    "recommendedPriorityFee": 0.75,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742337351468,
+    "volatilityIndex": 0,
+    "averageSlippage": 100,
+    "recommendedPriorityFee": 0.4,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742338384694,
+    "volatilityIndex": 0,
+    "averageSlippage": 100,
+    "recommendedPriorityFee": 0.4,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742339291560,
+    "volatilityIndex": 0,
+    "averageSlippage": 100,
+    "recommendedPriorityFee": 0.4,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742339914674,
+    "volatilityIndex": 0,
+    "averageSlippage": 100,
+    "recommendedPriorityFee": 0.4,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742340990541,
+    "volatilityIndex": 0,
+    "averageSlippage": 1.5198280094090406,
+    "recommendedPriorityFee": 0.4,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742341157509,
+    "volatilityIndex": 100,
+    "averageSlippage": 50.75991400470452,
+    "recommendedPriorityFee": 0.75,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742412725890,
+    "volatilityIndex": 0,
+    "averageSlippage": 100,
+    "recommendedPriorityFee": 0.4,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742412896768,
+    "volatilityIndex": 100,
+    "averageSlippage": 50.00055232341648,
+    "recommendedPriorityFee": 0.75,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742415857455,
+    "volatilityIndex": 0,
+    "averageSlippage": 23.56481393765498,
+    "recommendedPriorityFee": 0.4,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742640086208,
+    "volatilityIndex": 0,
+    "averageSlippage": 100,
+    "recommendedPriorityFee": 0.4,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742640134772,
+    "volatilityIndex": 0,
+    "averageSlippage": 100,
+    "recommendedPriorityFee": 0.4,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742640163655,
+    "volatilityIndex": 0,
+    "averageSlippage": 100,
+    "recommendedPriorityFee": 0.4,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742640217276,
+    "volatilityIndex": 0,
+    "averageSlippage": 100,
+    "recommendedPriorityFee": 0.4,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742830126835,
+    "volatilityIndex": 0,
+    "averageSlippage": 3.0441612253981822,
+    "recommendedPriorityFee": 0.4,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1742830215268,
+    "volatilityIndex": 100,
+    "averageSlippage": 7.1183851508887,
+    "recommendedPriorityFee": 0.75,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742830254115,
+    "volatilityIndex": 100,
+    "averageSlippage": 10.5700522806723,
+    "recommendedPriorityFee": 0.75,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1742830289696,
+    "volatilityIndex": 100,
+    "averageSlippage": 12.234894631612553,
+    "recommendedPriorityFee": 0.75,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743657947806,
+    "volatilityIndex": 0,
+    "averageSlippage": 0.6611552177666017,
+    "recommendedPriorityFee": 0.8,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1743658516619,
+    "volatilityIndex": 100,
+    "averageSlippage": 0.5704193889883477,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743660425767,
+    "volatilityIndex": 0,
+    "averageSlippage": 7.0769330202358285,
+    "recommendedPriorityFee": 0.8,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1743660809800,
+    "volatilityIndex": 100,
+    "averageSlippage": 3.705272065667891,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743661216559,
+    "volatilityIndex": 100,
+    "averageSlippage": 0.33361111106099633,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743661218433,
+    "volatilityIndex": 100,
+    "averageSlippage": 0.33361111107025077,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743675495189,
+    "volatilityIndex": 0,
+    "averageSlippage": 0.8716669276424935,
+    "recommendedPriorityFee": 1.6,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1743691805201,
+    "volatilityIndex": 0,
+    "averageSlippage": 20.904995417640517,
+    "recommendedPriorityFee": 1.6,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1743692139276,
+    "volatilityIndex": 100,
+    "averageSlippage": 10.757038650296549,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743692476498,
+    "volatilityIndex": 100,
+    "averageSlippage": 0.624465180742356,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743692866854,
+    "volatilityIndex": 100,
+    "averageSlippage": 0.5768956482165559,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743692937152,
+    "volatilityIndex": 100,
+    "averageSlippage": 2.2418962189447207,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743693216043,
+    "volatilityIndex": 100,
+    "averageSlippage": 2.2512059853524877,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743693563831,
+    "volatilityIndex": 100,
+    "averageSlippage": 0.6677764856454558,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743693912040,
+    "volatilityIndex": 100,
+    "averageSlippage": 1.6626227007594494,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743696203224,
+    "volatilityIndex": 0,
+    "averageSlippage": 5.791160625330219,
+    "recommendedPriorityFee": 1.6,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1743696498261,
+    "volatilityIndex": 100,
+    "averageSlippage": 15.961045118912216,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743696872126,
+    "volatilityIndex": 100,
+    "averageSlippage": 13.697063440815635,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743697281202,
+    "volatilityIndex": 100,
+    "averageSlippage": 0.9654875234239345,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743697675165,
+    "volatilityIndex": 100,
+    "averageSlippage": 0.6677777775101826,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743697679251,
+    "volatilityIndex": 100,
+    "averageSlippage": 6.9147274306245645,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743698064434,
+    "volatilityIndex": 100,
+    "averageSlippage": 6.914013183666416,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743698383243,
+    "volatilityIndex": 100,
+    "averageSlippage": 6.397258379094609,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743698732300,
+    "volatilityIndex": 100,
+    "averageSlippage": 6.398329749543004,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743699088184,
+    "volatilityIndex": 100,
+    "averageSlippage": 3.2148810299030384,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743699412121,
+    "volatilityIndex": 100,
+    "averageSlippage": 8.454150550551578,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743699741969,
+    "volatilityIndex": 100,
+    "averageSlippage": 5.907047298370523,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743700059984,
+    "volatilityIndex": 100,
+    "averageSlippage": 0.4388553379428555,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743769114868,
+    "volatilityIndex": 0,
+    "averageSlippage": 6.2260263624687575e-9,
+    "recommendedPriorityFee": 1.6,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1743769457918,
+    "volatilityIndex": 100,
+    "averageSlippage": 4.779680179943441e-9,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1743774365369,
+    "volatilityIndex": 0,
+    "averageSlippage": 0.40733344114102676,
+    "recommendedPriorityFee": 1.6,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1743775740280,
+    "volatilityIndex": 0,
+    "averageSlippage": 0.6189873646278046,
+    "recommendedPriorityFee": 1.6,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1743775814716,
+    "volatilityIndex": 100,
+    "averageSlippage": 6.1089437794876025,
+    "recommendedPriorityFee": 3,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1744029311619,
+    "volatilityIndex": 0,
+    "averageSlippage": 8.90929190106228,
+    "recommendedPriorityFee": 1.6,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1744287468620,
+    "volatilityIndex": 0,
+    "averageSlippage": 8.804678882389002,
+    "recommendedPriorityFee": 0.8,
+    "tradingRecommendation": "neutral"
+  },
+  {
+    "timestamp": 1744287790013,
+    "volatilityIndex": 100,
+    "averageSlippage": 4.734481853628989,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1744288153136,
+    "volatilityIndex": 100,
+    "averageSlippage": 0.6492578215203647,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1744288543022,
+    "volatilityIndex": 100,
+    "averageSlippage": 1.9567884785532303,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1744288997576,
+    "volatilityIndex": 100,
+    "averageSlippage": 3.9654202374915557,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  },
+  {
+    "timestamp": 1744289297958,
+    "volatilityIndex": 100,
+    "averageSlippage": 29.987471339650675,
+    "recommendedPriorityFee": 1.5,
+    "tradingRecommendation": "unfavorable"
+  }
+]

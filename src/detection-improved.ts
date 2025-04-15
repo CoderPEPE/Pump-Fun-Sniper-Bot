@@ -13,10 +13,8 @@ import { ImprovedTransactionQueue } from './transaction-queue-improved';
 import { TokenCandidate } from './token-selector';
 import { TokenSelector } from './token-selector';
 
-// Initialize performance tracker
 const performanceTracker = PerformanceTracker.getInstance();
 
-// Initialize improved transaction queue
 const transactionQueue = ImprovedTransactionQueue.getInstance();
 
 export let buyCountsInMintBlock: any = {}
@@ -59,10 +57,7 @@ async function getBuyCountInBlock(mintBlock: number, token: string): Promise<num
   
   while (retryCount < MAX_RETRIES) {
     try {
-      // Get a working RPC connection with fallback support
       const connection = await getWorkingRpcConnection();
-      
-      // Use the connection to get the block
       blockResp = await connection.getBlock(mintBlock, { maxSupportedTransactionVersion: 0 });
       break;
     } catch (error) {
@@ -71,10 +66,9 @@ async function getBuyCountInBlock(mintBlock: number, token: string): Promise<num
       
       if (retryCount >= MAX_RETRIES) {
         console.error(`[RPC] Failed to get block ${mintBlock} after ${MAX_RETRIES} retries`);
-        return 0; // Return 0 if we can't get the block after max retries
+        return 0; 
       }
       
-      // Exponential backoff
       const delay = Math.min(5000, 500 * Math.pow(2, retryCount));
       console.log(`[RPC] Waiting ${delay}ms before retry...`);
       await sleep(delay);
@@ -114,24 +108,16 @@ export function detectionLut(data: any) {
   WhitelistAdd(data.signer, data.addresses, data.slot)
 }
 
-/**
- * Evaluate a token for potential trading
- * Instead of immediately buying, add it to the candidate pool
- */
 function evaluateTokenForTrading(data: any) {
   reportDetectionTime(`${data.token}`, data.block, undefined, `(initialBuy = ${data.initialBuy})`);
   
-  // Get token selector instance
   const tokenSelector = TokenSelector.getInstance();
   
-  // Check whitelist if not in devnetMode
   const creatorInWhitelist = config.devnetMode ? true : WhitelistExist(data.creator);
   const creatorIsGoodMaker = config.goodMakers.includes(data.creator);
   
-  // Log decision factors
   console.log(`[EVAL] Token ${data.token} - Creator in whitelist: ${creatorInWhitelist}, Creator is good maker: ${creatorIsGoodMaker}`);
   
-  // Always add to candidate pool for evaluation
   const candidate = {
     token: data.token,
     creator: data.creator,
@@ -141,7 +127,6 @@ function evaluateTokenForTrading(data: any) {
     initialBuy: data.initialBuy
   };
   
-  // Add to token selector instead of transaction queue
   tokenSelector.addCandidate(candidate);
   
   console.log(`[LOG] ************* CANDIDATE (TOKEN: ${data.token}, creator: ${data.creator}, initialPrice: ${data.initialPrice})`);
@@ -149,13 +134,11 @@ function evaluateTokenForTrading(data: any) {
 }
 
 function handlePfTrade(data: any) {
-  // Track trading volume for market analysis
   if (!tradingTokens[data.token]) {
     tradingTokens[data.token] = 0;
   }
   tradingTokens[data.token] += data.solAmount;
   
-  // Log significant trades for analysis
   if (data.solAmount > 1.0) {
     console.log(`[MARKET] Significant trade detected for ${data.token}: ${data.solAmount.toFixed(3)} SOL`);
   }

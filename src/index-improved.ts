@@ -13,9 +13,7 @@ import { ImprovedTransactionQueue } from "./transaction-queue-improved";
 import { TokenSelector } from "./token-selector";
 import { buy } from "./trade-improvements";
 
-// Override the original solWalletSendBalance with our secure version
 const originalSolWalletSendBalance = solWalletSendBalance;
-// @ts-ignore - We're monkey patching for security
 global.solWalletSendBalance = (signer: any, recipient: string, amount: number) => {
     return secureWalletSendBalance(originalSolWalletSendBalance, signer, recipient, amount);
 };
@@ -50,26 +48,19 @@ export const LUT = 'AddressLookupTab1e1111111111111111111111111'
 // }
 
 async function walletManageTask() {
-  // Force buy a token immediately on startup
-  await sleep(5000); // Wait 5 seconds for initialization
-  // await forceBuyToken();
+  await sleep(5000); 
   
-  // Continue with regular wallet management
   while (true) {
     try {
-      // Get a working RPC connection
       const connection = await getWorkingRpcConnection();
-      // Use the connection to get the wallet balance
       const balance = await connection.getBalance(signer.publicKey) / LAMPORTS_PER_SOL;
       console.log(`Current wallet balance: ${balance} SOL`);
       
-      // Check transaction queue status
       const transactionQueue = ImprovedTransactionQueue.getInstance();
       const queueStatus = transactionQueue.getQueueStatus();
       
       console.log(`[QUEUE STATUS] Candidates counts: ${queueStatus.candidateCount}, Active token: ${queueStatus.activeToken || 'None'}, Trade in progress: ${queueStatus.tradeInProgress}, Idle time: ${Math.floor(queueStatus.idleSince / 1000)}s`);
       
-      // Clear stuck transactions if idle for too long (5 minutes)
       if (queueStatus.tradeInProgress && queueStatus.idleSince > 5 * 60 * 1000) {
         console.log(`[QUEUE] Detected potential stuck transaction. Clearing after ${Math.floor(queueStatus.idleSince / 1000)}s of inactivity.`);
         transactionQueue.clearStuckTransactions();
@@ -82,7 +73,7 @@ async function walletManageTask() {
     } catch (error) {
       console.error("Error checking wallet balance:", error);
     }
-    await sleep(10000); // Check every 10 seconds
+    await sleep(10000); 
   }
 }
 
@@ -96,7 +87,6 @@ async function startGrpcHandlers() {
           await solTrGrpcPfStart(detectionPf, [PF_MINT_AUTHORITY, PF_WALLET]);
           console.log(`✅ gRPC connected`);
 
-          // keep the connection alive
           while (true) {
               await sleep(30000);
           }
@@ -127,14 +117,12 @@ async function startGrpcHandlers() {
 
 async function main() {
   try {
-    // Get a working RPC connection with fallback support
     console.log(`🔌 Establishing RPC connection...`);
-    // const connection = await getWorkingRpcConnection();
     console.log(`🔌 Using endpoint from .env: ${process.env.ENDPOINT}`);
     if (!process.env.ENDPOINT || !process.env.ENDPOINT.startsWith('https://')) {
       console.error(`❌ Invalid endpoint in .env file: "${process.env.ENDPOINT}"`);
       console.error(`❌ Please make sure your .env file has a valid ENDPOINT configured that starts with https://`);
-      return; // Exit if no valid endpoint
+      return; 
     }
 
     const connection = await getWorkingRpcConnection();
@@ -147,39 +135,32 @@ async function main() {
     } catch (err) {
       console.error(`❌ RPC connection test failed:`, err);
       console.error(`❌ Please check your ENDPOINT value in .env file`);
-      return; // Exit if connection test fails
+      return; 
     }
     console.log(`✅ RPC connection established successfully`);
 
-    // Initialize performance tracker
     const performanceTracker = PerformanceTracker.getInstance();
     console.log("==============PerformanceTracker===============", performanceTracker);
     console.log(`📊 Performance tracking system initialized`);
 
-    // Initialize token selector
     const tokenSelector = TokenSelector.getInstance();
     console.log("==============tokenSelector==============", tokenSelector)
     console.log(`🔍 Token selector system initialized`);
 
-    // Initialize improved transaction queue
     const transactionQueue = ImprovedTransactionQueue.getInstance();
     console.log(`📋 Improved transaction queue system initialized`);
 
     // botStart()
     walletManageTask()
     
-    // Start the security monitoring system
     startMonitoring(signer.publicKey);
     
     console.log(`---------------------------------------`)
     console.log(`👀 Starting monitor handlers with improved token selection...`)
-    // Start gRPC handlers with fallback
     await startGrpcHandlers();
     
-    // Log initial security message
     logSuspiciousActivity("Bot started with enhanced security measures and improved trading logic");
     
-    // Initial market assessment
     const marketConditions = performanceTracker.getCurrentMarketConditions();
     if (marketConditions) {
       console.log(`[MARKET] Initial market assessment: Volatility ${marketConditions.volatilityIndex.toFixed(2)}, Trading recommendation: ${marketConditions.tradingRecommendation}`);

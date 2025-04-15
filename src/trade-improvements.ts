@@ -31,16 +31,12 @@ import { AnchorProvider } from "@coral-xyz/anchor";
 dotenv.config()
 export const signer = solWalletImport(process.env.PRIVATE_KEY!)!
 
-// Initialize transaction queue
 const transactionQueue = ImprovedTransactionQueue.getInstance();
 
-// Last price tracking for rapid decline detection
 const lastPriceMap: Record<string, { price: number, timestamp: number }> = {};
 
-// Track last trade time to enforce cooldown period
 let lastTradeTime = 0;
 
-// Track total balance used for trading to enforce maxBalancePercentage
 let totalBalanceUsed = 0;
 let lastBalanceCheck = 0;
 const BALANCE_CHECK_INTERVAL = 60000; // 1 minute

@@ -88,24 +88,7 @@ export const sendBundle = async (bundledTxns: VersionedTransaction[]): Promise<R
         console.log("Sending bundle...");
         const bundleId = await searcherClient.sendBundle(new JitoBundle(bundledTxns, bundledTxns.length));
         console.log("Bundle sent successfully.");
-        // console.log(bundleId);
 
-        // ///*
-        // // Assuming onBundleResult returns a Promise<BundleResult>
-        // const result = await new Promise((resolve, reject) => {
-        //     searcherClient.onBundleResult(
-        //         (result) => {
-        //             console.log("Received bundle result:", result);
-        //             resolve(result); // Resolve the promise with the result
-        //         },
-        //         (e: Error) => {
-        //             console.error("Error receiving bundle result:", e);
-        //             reject(e); // Reject the promise if there's an error
-        //         }
-        //     );
-        // });
-
-        // console.log("Result:", result);
         return bundleId
     } catch (error) {
         const err = error as any;
@@ -120,7 +103,6 @@ export const sendBundle = async (bundledTxns: VersionedTransaction[]): Promise<R
     }
 }
 
-// Helper function to fetch address lookup table accounts
 async function fetchAddressLookupTableAccounts(connection: any, addressLookupTableAddresses: any) {
     const addressLookupTableAccounts = [];
 
@@ -144,10 +126,8 @@ async function fetchAddressLookupTableAccounts(connection: any, addressLookupTab
 
 export const addTipToTransaction = async (signer: Keypair, transaction: VersionedTransaction, connection: Connection): Promise<VersionedTransaction | undefined> => {
     try {
-        // Get the latest blockhash
         const { blockhash } = await connection.getLatestBlockhash("finalized");
 
-        // Get Jito tip account and amount
         const tipAcct = await getRandomTipAccount();
         if (!tipAcct) {
             logger.error("Failed to get tip account");
@@ -162,7 +142,6 @@ export const addTipToTransaction = async (signer: Keypair, transaction: Versione
 
         const tipAmountLamports = Math.floor(jitoTips.landed_tips_95th_percentile * Math.pow(10, 9));
         const jitoTipAmount = new BN(tipAmountLamports.toString());
-        // console.log("Jito tip amount:", jitoTipAmount.toString());
 
         const tipInstruction = SystemProgram.transfer({
             fromPubkey: signer.publicKey,

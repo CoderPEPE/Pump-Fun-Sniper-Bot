@@ -10,19 +10,13 @@ export class ImprovedTransactionQueue {
   private activeTrade: string | null = null;
   private tradeInProgress = false;
   
-  // Track last activity time to detect stuck transactions
   private lastActivityTime: number = Date.now();
-  // Timeout for stuck transactions (5 minutes)
   private readonly STUCK_TRANSACTION_TIMEOUT = 5 * 60 * 1000;
-  
-  // Token selector for dynamic token selection
   private tokenSelector = TokenSelector.getInstance();
   
   private constructor() {
-    // Start a timer to check for stuck transactions
     setInterval(() => this.checkForStuckTransactions(), 60000);
     
-    // Start a timer to process the queue periodically - reduced from 30s to 15s
     setInterval(() => this.processQueue(), 15000);
   }
   
@@ -60,7 +54,6 @@ export class ImprovedTransactionQueue {
     this.processing = false;
     this.lastActivityTime = Date.now();
     
-    // Process the queue to select a new token
     this.processQueue();
   }
   
@@ -70,9 +63,7 @@ export class ImprovedTransactionQueue {
   public addTokenCandidate(candidate: TokenCandidate): void {
     this.tokenSelector.addCandidate(candidate);
     
-    // If no active trade, process the queue to potentially start a new trade
     if (!this.tradeInProgress && !this.processing) {
-      // Process immediately instead of waiting for the next interval
       setTimeout(() => this.processQueue(), 1000);
     }
   }
@@ -87,11 +78,9 @@ export class ImprovedTransactionQueue {
     
     try {
       this.processing = true;
-      // Add delay between processing attempts
       await sleep(1000);
       this.lastActivityTime = Date.now();
 
-      // Add connection check
       const connection = await getWorkingRpcConnection();
       if (!connection) {
         console.log('[QUEUE] No valid RPC connection available, skipping processing');
@@ -101,7 +90,6 @@ export class ImprovedTransactionQueue {
       console.log(`[QUEUE] Processing queue to select best token candidate`);
       console.log(`[QUEUE] Current candidate count: ${this.tokenSelector.getCandidateCount()}`);
       
-      // Select the best token candidate
       const bestCandidate = await this.tokenSelector.selectBestCandidate();
       
       if (!bestCandidate) {
@@ -111,15 +99,12 @@ export class ImprovedTransactionQueue {
       
       console.log(`[QUEUE] Selected best candidate: ${bestCandidate.token} with initial price ${bestCandidate.initialPrice}`);
       
-      // Start trading the selected token
       this.activeTrade = bestCandidate.token;
       this.tradeInProgress = true;
       
       console.log(`[QUEUE] Starting trade for ${bestCandidate.token}`);
       
-      // Execute the buy function
       try {
-        // Import buy function dynamically to avoid circular dependency
         const { buy } = require('./trade-improvements');
         
         await buy(
@@ -131,15 +116,12 @@ export class ImprovedTransactionQueue {
       } catch (error) {
         console.error(`[QUEUE] Error executing trade for ${bestCandidate.token}:`, error);
       } finally {
-        // Mark trade as complete
         this.activeTrade = null;
         this.tradeInProgress = false;
         this.lastActivityTime = Date.now();
         
-        // Reduced delay before processing the next token from 5000ms to 2000ms
         await sleep(2000);
         
-        // Process the queue again to select the next token
         setTimeout(() => this.processQueue(), 1000);
       }
     } catch (error) {
@@ -191,10 +173,8 @@ export class ImprovedTransactionQueue {
   }
   
   public async selectBestCandidateForTrading(): Promise<TokenCandidate | null> {
-    // Get the token selector instance
     const tokenSelector = TokenSelector.getInstance();
     
-    // Use the token selector to pick the best candidate
     const bestCandidate = await tokenSelector.selectBestCandidate();
     
     if (bestCandidate) {

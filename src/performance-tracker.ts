@@ -4,7 +4,6 @@ import { blackListAdd } from './blacklist';
 import { WhitelistRemove } from './whitelist';
 import { config } from './config';
 
-// Interface for tracking trade performance
 interface TradeRecord {
   token: string;
   creator: string;
@@ -13,11 +12,10 @@ interface TradeRecord {
   profit: number;
   profitPercentage: number;
   timestamp: number;
-  executionTime: number; // Time taken to complete the trade in seconds
+  executionTime: number;
   success: boolean;
 }
 
-// Interface for tracking wallet performance
 interface WalletPerformance {
   wallet: string;
   totalTrades: number;
@@ -30,16 +28,14 @@ interface WalletPerformance {
   trades: TradeRecord[];
 }
 
-// Interface for market volatility tracking
 interface MarketCondition {
   timestamp: number;
-  volatilityIndex: number; // 0-100 scale, higher means more volatile
+  volatilityIndex: number;
   averageSlippage: number;
   recommendedPriorityFee: number;
   tradingRecommendation: 'favorable' | 'neutral' | 'unfavorable';
 }
 
-// Class to track and manage performance data
 export class PerformanceTracker {
   private static instance: PerformanceTracker;
   private walletPerformance: Record<string, WalletPerformance> = {};
@@ -47,26 +43,21 @@ export class PerformanceTracker {
   private performanceFile = './performance-data.json';
   private marketConditionsFile = './market-conditions.json';
   
-  // Volatility thresholds - increased to be less restrictive
   private readonly HIGH_VOLATILITY_THRESHOLD = 90;
   private readonly LOW_VOLATILITY_THRESHOLD = 30;
   
-  // Performance thresholds
-  private readonly GOOD_PERFORMANCE_THRESHOLD = 0.6; // 60% success rate
-  private readonly POOR_PERFORMANCE_THRESHOLD = 0.4; // 40% success rate
+  private readonly GOOD_PERFORMANCE_THRESHOLD = 0.6; 
+  private readonly POOR_PERFORMANCE_THRESHOLD = 0.4;
   
-  // Dynamic fee adjustment factors
   private readonly FEE_INCREASE_FACTOR = 1.5;
   private readonly FEE_DECREASE_FACTOR = 0.8;
 
   private constructor() {
     this.loadData();
     
-    // Set up periodic saving of data
-    setInterval(() => this.saveData(), 60000); // Save every minute
+    setInterval(() => this.saveData(), 60000);
     
-    // Set up periodic market condition assessment
-    setInterval(() => this.assessMarketConditions(), 300000); // Assess every 5 minutes
+    setInterval(() => this.assessMarketConditions(), 300000);
   }
 
   public static getInstance(): PerformanceTracker {
@@ -116,10 +107,9 @@ export class PerformanceTracker {
     endTime: number,
     success: boolean
   ): void {
-    const executionTime = (endTime - startTime) / 1000; // Convert to seconds
+    const executionTime = (endTime - startTime) / 1000;
     const profitPercentage = (profit / (buyPrice * config.amountTrade)) * 100;
     
-    // Create trade record
     const tradeRecord: TradeRecord = {
       token,
       creator,
@@ -132,7 +122,6 @@ export class PerformanceTracker {
       success
     };
     
-    // Update wallet performance
     if (!this.walletPerformance[creator]) {
       this.walletPerformance[creator] = {
         wallet: creator,
@@ -161,15 +150,12 @@ export class PerformanceTracker {
     walletData.successRate = walletData.successfulTrades / walletData.totalTrades;
     walletData.trades.push(tradeRecord);
     
-    // Keep only the last 20 trades to avoid excessive memory usage
     if (walletData.trades.length > 20) {
       walletData.trades = walletData.trades.slice(-20);
     }
     
-    // Update wallet lists based on performance
     this.updateWalletLists(creator, walletData);
     
-    // Update market conditions with this trade data
     this.updateMarketConditions(tradeRecord);
     
     console.log(`[PERFORMANCE] Recorded trade for ${token} by ${creator}: ${profit.toFixed(4)} SOL (${profitPercentage.toFixed(2)}%)`);
@@ -179,19 +165,16 @@ export class PerformanceTracker {
    * Update wallet blacklist/whitelist based on performance
    */
   private updateWalletLists(wallet: string, performance: WalletPerformance): void {
-    // Only evaluate wallets with at least 3 trades
     if (performance.totalTrades < 3) {
       return;
     }
     
-    // Blacklist consistently poor performers
     if (performance.successRate < this.POOR_PERFORMANCE_THRESHOLD) {
       console.log(`[PERFORMANCE] Adding ${wallet} to blacklist due to poor performance (${(performance.successRate * 100).toFixed(2)}% success rate)`);
       blackListAdd(wallet);
       return;
     }
     
-    // Remove from whitelist if performance is mediocre
     if (performance.successRate < this.GOOD_PERFORMANCE_THRESHOLD) {
       console.log(`[PERFORMANCE] Removing ${wallet} from whitelist due to mediocre performance (${(performance.successRate * 100).toFixed(2)}% success rate)`);
       WhitelistRemove(wallet);
@@ -202,7 +185,6 @@ export class PerformanceTracker {
    * Update market conditions based on recent trade data
    */
   private updateMarketConditions(trade: TradeRecord): void {
-    // Get recent trades (last 10 minutes)
     const recentTime = Date.now() - 10 * 60 * 1000;
     const recentTrades: TradeRecord[] = [];
     
@@ -214,16 +196,13 @@ export class PerformanceTracker {
       return;
     }
     
-    // Calculate volatility based on profit percentage variance
     const profitPercentages = recentTrades.map(t => t.profitPercentage);
     const avgProfit = profitPercentages.reduce((sum, val) => sum + val, 0) / profitPercentages.length;
     const variance = profitPercentages.reduce((sum, val) => sum + Math.pow(val - avgProfit, 2), 0) / profitPercentages.length;
     const volatilityIndex = Math.min(100, Math.max(0, Math.sqrt(variance) * 5)); // Scale appropriately
     
-    // Calculate average slippage (estimated)
     const avgSlippage = recentTrades.reduce((sum, t) => sum + Math.abs(t.sellPrice - t.buyPrice) / t.buyPrice, 0) / recentTrades.length * 100;
     
-    // Determine recommended priority fee based on volatility
     let recommendedPriorityFee = config.prioityFee;
     if (volatilityIndex > this.HIGH_VOLATILITY_THRESHOLD) {
       recommendedPriorityFee *= this.FEE_INCREASE_FACTOR;
@@ -231,7 +210,6 @@ export class PerformanceTracker {
       recommendedPriorityFee *= this.FEE_DECREASE_FACTOR;
     }
     
-    // Determine trading recommendation
     let tradingRecommendation: 'favorable' | 'neutral' | 'unfavorable';
     if (volatilityIndex > this.HIGH_VOLATILITY_THRESHOLD) {
       tradingRecommendation = 'unfavorable';
@@ -241,7 +219,6 @@ export class PerformanceTracker {
       tradingRecommendation = 'neutral';
     }
     
-    // Create market condition record
     const marketCondition: MarketCondition = {
       timestamp: Date.now(),
       volatilityIndex,
@@ -252,7 +229,6 @@ export class PerformanceTracker {
     
     this.marketConditions.push(marketCondition);
     
-    // Keep only the last 100 market condition records
     if (this.marketConditions.length > 100) {
       this.marketConditions = this.marketConditions.slice(-100);
     }
@@ -268,12 +244,9 @@ export class PerformanceTracker {
       return;
     }
     
-    // Get the most recent market condition
     const currentCondition = this.marketConditions[this.marketConditions.length - 1];
     
-    // Update config parameters based on market conditions
     if (currentCondition.volatilityIndex > this.HIGH_VOLATILITY_THRESHOLD) {
-      // High volatility - increase slippage, priority fees, and be more conservative
       this.updateDynamicParameters({
         slippage: Math.min(200, config.slippage * 1.5),
         prioityFee: Math.max(1, currentCondition.recommendedPriorityFee),
@@ -283,7 +256,6 @@ export class PerformanceTracker {
       
       console.log(`[MARKET] High volatility detected (${currentCondition.volatilityIndex.toFixed(2)}). Adjusting parameters for conservative trading.`);
     } else if (currentCondition.volatilityIndex < this.LOW_VOLATILITY_THRESHOLD) {
-      // Low volatility - can be more aggressive
       this.updateDynamicParameters({
         slippage: Math.max(50, config.slippage * 0.8),
         prioityFee: Math.max(1, currentCondition.recommendedPriorityFee),
@@ -299,8 +271,6 @@ export class PerformanceTracker {
    * Update dynamic parameters in the config
    */
   private updateDynamicParameters(params: Partial<Config>): void {
-    // This doesn't actually modify the config.json file, just the in-memory config
-    // The changes will be applied until the config is reloaded from disk
     Object.assign(config, params);
     
     console.log('[CONFIG] Dynamic parameters updated:', params);
@@ -320,7 +290,6 @@ export class PerformanceTracker {
    * Check if current market conditions are favorable for trading
    */
   public isFavorableForTrading(): boolean {
-    // Always return true to ensure trades are not skipped
     return true;
     
     // Original implementation (commented out)
@@ -339,15 +308,12 @@ export class PerformanceTracker {
    */
   public getDynamicStopLoss(initialPrice: number): number {
     const currentCondition = this.getCurrentMarketConditions();
-    let stopLoss = config.sl; // Default from config
+    let stopLoss = config.sl; 
     
     if (currentCondition) {
-      // Adjust stop loss based on volatility
       if (currentCondition.volatilityIndex > this.HIGH_VOLATILITY_THRESHOLD) {
-        // More volatile market - tighter stop loss
         stopLoss = Math.max(30, stopLoss * 0.8);
       } else if (currentCondition.volatilityIndex < this.LOW_VOLATILITY_THRESHOLD) {
-        // Less volatile market - can have wider stop loss
         stopLoss = Math.min(80, stopLoss * 1.2);
       }
     }
@@ -360,15 +326,12 @@ export class PerformanceTracker {
    */
   public getDynamicTakeProfit(initialPrice: number): number {
     const currentCondition = this.getCurrentMarketConditions();
-    let takeProfit = config.tp; // Default from config
+    let takeProfit = config.tp; 
     
     if (currentCondition) {
-      // Adjust take profit based on volatility
       if (currentCondition.volatilityIndex > this.HIGH_VOLATILITY_THRESHOLD) {
-        // More volatile market - higher take profit target
         takeProfit = Math.min(20, takeProfit * 1.5);
       } else if (currentCondition.volatilityIndex < this.LOW_VOLATILITY_THRESHOLD) {
-        // Less volatile market - lower take profit is acceptable
         takeProfit = Math.max(5, takeProfit * 0.9);
       }
     }
@@ -396,7 +359,6 @@ export class PerformanceTracker {
   }
 }
 
-// Type definition for config updates
 interface Config {
   slippage: number;
   prioityFee: number;

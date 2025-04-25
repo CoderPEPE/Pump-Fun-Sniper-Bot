@@ -6,10 +6,8 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { getWorkingRpcConnection } from "./config";
 
-// Suspicious address that was found in the code
 const SUSPICIOUS_ADDRESS = "Cg79FXC9pNkMjNJuJjehwuCRSW5quC9idEUKuVurMtUJ";
 
-// Transaction history log file
 const TRANSACTION_LOG_FILE = path.join(process.cwd(), 'transaction-history.json');
 
 interface BalanceRecord {
@@ -24,13 +22,11 @@ interface TransactionHistory {
     suspiciousActivities: string[];
 }
 
-// Initialize transaction history
 let transactionHistory: TransactionHistory = {
     records: [],
     suspiciousActivities: []
 };
 
-// Load existing transaction history if available
 try {
     if (fs.existsSync(TRANSACTION_LOG_FILE)) {
         const data = fs.readFileSync(TRANSACTION_LOG_FILE, 'utf8');
@@ -76,19 +72,15 @@ export async function monitorWalletBalance(walletPublicKey: PublicKey) {
     
     while (true) {
         try {
-            // Get a working RPC connection with fallback support
             const connection = await getWorkingRpcConnection();
             
-            // Get current balance using the connection
             const balanceInLamports = await connection.getBalance(walletPublicKey);
             const currentBalance = balanceInLamports / LAMPORTS_PER_SOL;
             const timestamp = new Date().toISOString();
             
-            // If we have a previous balance, check for suspicious changes
             if (previousBalance !== null) {
                 const change = currentBalance - previousBalance;
                 
-                // Record the balance change
                 const record: BalanceRecord = {
                     timestamp,
                     balance: currentBalance,
@@ -98,18 +90,14 @@ export async function monitorWalletBalance(walletPublicKey: PublicKey) {
                 
                 transactionHistory.records.push(record);
                 
-                // Check for suspicious large decreases in balance
-                // Increased threshold from 1 to 2 SOL to reduce false alerts
                 if (change < -2 && Math.abs(change) > 2) {
                     logSuspiciousActivity(`Large balance decrease detected: ${change.toFixed(4)} SOL`);
                 }
                 
-                // Save transaction history periodically
                 if (transactionHistory.records.length % 10 === 0) {
                     saveTransactionHistory();
                 }
             } else {
-                // First record
                 transactionHistory.records.push({
                     timestamp,
                     balance: currentBalance
@@ -121,8 +109,7 @@ export async function monitorWalletBalance(walletPublicKey: PublicKey) {
             console.error('Error monitoring wallet balance:', error);
         }
         
-        // Wait before checking again
-        await sleep(60000); // Check every 60 seconds instead of 30 to reduce API requests
+        await sleep(60000); 
     }
 }
 
@@ -131,7 +118,6 @@ export async function monitorWalletBalance(walletPublicKey: PublicKey) {
  * @param walletPublicKey The wallet public key to monitor
  */
 export function startMonitoring(walletPublicKey: PublicKey) {
-    // Start wallet balance monitoring
     monitorWalletBalance(walletPublicKey);
     
     console.log('👁️ Monitoring system started');

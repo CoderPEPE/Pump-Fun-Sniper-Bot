@@ -4,7 +4,6 @@ import * as readline from 'readline';
 
 const gsinger = solWalletImport(process.env.PRIVATE_KEY || "")
 
-// Create readline interface for user confirmation
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
@@ -12,7 +11,6 @@ const rl = readline.createInterface({
 
 async function main() {
     try {
-        // Require explicit user confirmation before closing token accounts
         rl.question('WARNING: This will close all token accounts. Type "CONFIRM" to proceed: ', async (answer) => {
             if (answer.trim() === 'CONFIRM') {
                 console.log('Closing token accounts...');

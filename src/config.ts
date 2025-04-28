@@ -4,10 +4,8 @@ import { EventEmitter } from 'events';
 import { Connection } from '@solana/web3.js';
 import { AdvancedRateLimiter } from './rate-limiter';
 
-// Create a global rate limiter instance
 export const rateLimiter = AdvancedRateLimiter.getInstance();
 
-// Fallback RPC endpoints in case the primary one fails
 export const FALLBACK_RPC_ENDPOINTS = [
   "https://api.mainnet-beta.solana.com",
   "https://solana.api.rpcpool.com",
@@ -21,10 +19,8 @@ export const FALLBACK_RPC_ENDPOINTS = [
   "https://free.rpcpool.com"
 ];
 
-// Rotate through endpoints to distribute load
 let currentEndpointIndex = 0;
 
-// Get the next endpoint in rotation
 export function getNextEndpoint(): string {
   const endpoint = FALLBACK_RPC_ENDPOINTS[currentEndpointIndex];
   currentEndpointIndex = (currentEndpointIndex + 1) % FALLBACK_RPC_ENDPOINTS.length;
@@ -33,22 +29,20 @@ export function getNextEndpoint(): string {
 
 const RPC_ENDPOINTS = [
   "https://fragrant-shy-mansion.solana-mainnet.quiknode.pro/8adcdcdffceeca3330fa483e8ec167773afd46d1",
-  process.env.ENDPOINT // your preferred
+  process.env.ENDPOINT 
 ];
 
-// Utility to check latency
 async function measureLatency(endpoint: string): Promise<number> {
   const start = Date.now();
   try {
       const connection = new Connection(endpoint, "confirmed");
-      await connection.getEpochInfo(); // cheap & fast call
+      await connection.getEpochInfo(); 
       return Date.now() - start;
   } catch {
-      return Number.MAX_SAFE_INTEGER; // mark as unusable
+      return Number.MAX_SAFE_INTEGER; 
   }
 }
 
-// Select the best RPC automatically
 export async function getWorkingRpcConnection(): Promise<Connection> {
   const latencies: { endpoint: string; latency: number }[] = [];
 
@@ -184,71 +178,55 @@ export interface Config {
   NumberAllow: boolean,
   whitelist: string[],
   goodMakers: string[],
-  // Dynamic risk management parameters
   dynamicStopLoss?: boolean,
   dynamicTakeProfit?: boolean,
   maxVolatilityForTrading?: number,
   adaptiveFees?: boolean,
-  // Rate limiting parameters
   maxConcurrentTrades?: number,
   rateLimitDelay?: number,
-  // Profitability parameters
   minProfitThreshold?: number,
   maxFeePercentage?: number,
-  // Devnet specific parameters
   devnetSlippage?: number,
   devnetPriorityFee?: number,
   devnetJitoBuyTip?: number,
-  // Balance management parameters
   maxBalancePercentage?: number,
-  // Trade timing parameters
   tradeCooldownPeriod?: number,
   randomDelayMin?: number,
   randomDelayMax?: number
 }
 
 export let config: Config;
-let originalConfig: Config; // Store original config for reference
+let originalConfig: Config; 
 
-/**
- * Load configuration from file
- */
+
 async function loadConfig() {
   while (true) {
     try {
       const fdata = fs.readFileSync('config.json', 'utf8');
       const newConfig = JSON.parse(fdata);
       
-      // Store original config on first load
       if (!originalConfig) {
         originalConfig = { ...newConfig };
       }
       
-      // Check for changes
       const hasChanges = JSON.stringify(config) !== JSON.stringify(newConfig);
       
-      // Update config
       config = newConfig;
       
-      // Add default values for new dynamic parameters if not present
       if (config.dynamicStopLoss === undefined) config.dynamicStopLoss = true;
       if (config.dynamicTakeProfit === undefined) config.dynamicTakeProfit = true;
       if (config.maxVolatilityForTrading === undefined) config.maxVolatilityForTrading = 80;
       if (config.adaptiveFees === undefined) config.adaptiveFees = true;
       
-      // Add default values for rate limiting parameters
       if (config.maxConcurrentTrades === undefined) config.maxConcurrentTrades = 2;
       if (config.rateLimitDelay === undefined) config.rateLimitDelay = 3000;
       
-      // Add default values for balance management parameters
       if (config.maxBalancePercentage === undefined) config.maxBalancePercentage = 20;
       
-      // Add default values for trade timing parameters
       if (config.tradeCooldownPeriod === undefined) config.tradeCooldownPeriod = 300000; // 5 minutes
       if (config.randomDelayMin === undefined) config.randomDelayMin = 5000; // 5 seconds
       if (config.randomDelayMax === undefined) config.randomDelayMax = 15000; // 15 seconds
       
-      // Emit event if config changed
       if (hasChanges) {
         console.log('[CONFIG] Configuration updated from file');
         configEvents.emit('configUpdated', config);
@@ -262,27 +240,16 @@ async function loadConfig() {
   }
 }
 
-/**
- * Update configuration parameters dynamically
- * This doesn't persist changes to the config.json file
- */
 export function updateDynamicConfig(updates: Partial<Config>): void {
-  // Apply updates
   Object.assign(config, updates);
   
-  // Log changes
   console.log('[CONFIG] Dynamic configuration updated:', updates);
   
-  // Emit event
   configEvents.emit('configUpdated', config);
 }
 
-/**
- * Reset dynamic parameters to original values from config.json
- */
 export function resetDynamicConfig(): void {
   if (originalConfig) {
-    // Reset only dynamic parameters
     config.slippage = originalConfig.slippage;
     config.tp = originalConfig.tp;
     config.sl = originalConfig.sl;
@@ -295,5 +262,4 @@ export function resetDynamicConfig(): void {
   }
 }
 
-// Start loading config
 loadConfig();

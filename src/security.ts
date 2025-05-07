@@ -4,7 +4,6 @@ import * as readline from 'readline';
 import { config } from "./config";
 import * as fs from 'fs';
 
-// Load blacklist addresses from blacklist.json
 let blacklistedAddresses: string[] = [];
 try {
     const blacklistData = fs.readFileSync('blacklist.json', 'utf8');
@@ -14,15 +13,12 @@ try {
     console.error('Error loading blacklist.json:', error);
 }
 
-// Create readline interface for user confirmation
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
 
-// Known safe addresses (add your trusted addresses here)
 const SAFE_ADDRESSES: string[] = [
-    // Add your trusted addresses here
 ];
 
 /**
@@ -39,8 +35,7 @@ export async function verifyTransaction(
     recipient: string,
     amount: number
 ): Promise<boolean> {
-    // Always require confirmation for large transfers
-    if (amount > 1) { // Threshold of 1 SOL
+    if (amount > 1) { 
         return new Promise<boolean>((resolve) => {
             console.log("\n⚠️ SECURITY ALERT ⚠️");
             console.log(`Transaction Details:`);
@@ -48,7 +43,6 @@ export async function verifyTransaction(
             console.log(`- To: ${recipient}`);
             console.log(`- Amount: ${amount} SOL`);
             
-            // Check if recipient is in blacklist
             const isBlacklisted = blacklistedAddresses.includes(recipient);
             if (isBlacklisted) {
                 console.log("❌ WARNING: Recipient address is BLACKLISTED!");
@@ -56,7 +50,6 @@ export async function verifyTransaction(
             
             console.log("⚠️ Always verify recipient addresses carefully");
             
-            // Check if recipient is in safe addresses
             const isSafe = SAFE_ADDRESSES.includes(recipient);
             if (isSafe) {
                 console.log("✅ Recipient is in your safe address list");
@@ -74,7 +67,6 @@ export async function verifyTransaction(
         });
     }
     
-    // For smaller amounts, check against blacklist
     if (blacklistedAddresses.includes(recipient)) {
         console.log(`❌ Transaction blocked: Recipient ${recipient} is blacklisted`);
         return false;
@@ -92,13 +84,10 @@ export async function secureWalletSendBalance(
     recipient: string,
     amount: number
 ): Promise<string | undefined> {
-    // Convert lamports to SOL for display
     const amountInSol = amount / LAMPORTS_PER_SOL;
     
-    // Create a dummy transaction for verification
     const dummyTx = new Transaction();
     
-    // Verify the transaction
     const approved = await verifyTransaction(
         dummyTx,
         signer.publicKey,
@@ -108,7 +97,6 @@ export async function secureWalletSendBalance(
     
     if (approved) {
         try {
-            // Execute the original function if approved
             return await originalSendFunction(signer, recipient, amount);
         } catch (error) {
             console.error("Error sending funds:", error);
@@ -127,12 +115,10 @@ export function closeSecurityModule() {
     rl.close();
 }
 
-// Add event listener for application exit
 process.on('exit', () => {
     closeSecurityModule();
 });
 
-// Handle Ctrl+C
 process.on('SIGINT', () => {
     console.log("\nShutting down security module...");
     closeSecurityModule();
